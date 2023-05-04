@@ -1,0 +1,69 @@
+
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+mode: global
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+bind-address: "*"
+ipv6: false
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7894
+  fallback-filter:
+    geoip: false
+    ipcidr:
+    - 240.0.0.0/4
+  nameserver:
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+    - tls://1.1.1.1:853
+    - tls://8.8.8.8:853
+  fallback:
+    - tcp://1.1.1.1
+    - tcp://8.8.8.8
+    - 1.1.1.1
+    - 8.8.8.8
+tun:
+  enable: true
+  stack: system 
+  macOS-auto-route: true
+  macOS-auto-detect-interface: true
+  dns-hijack:
+    - tcp://8.8.8.8:53
+experimental:
+  interface-name: en0
+
+proxies:
+  - {name: FastServer1, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 847bcb11-c0ce-4d8d-8a34-86c4672c39d3, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: FastServer2, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: c196d409-6695-4955-a39d-e2e3d53a9f51, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: FastServer3, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: c5986b94-544b-468c-926e-9131b669150a, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: FastServer4, server: vn-full.privateip.net, port: 443, udp: true, type: trojan, password: ce22ee4e-7c93-4159-bff1-b2b75d0cb968, sni: c.whatsapp.net, skip-cert-verify: true}
+  # - {name: FastServer5, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: d9110794-068e-4d42-8d41-6df6f8d5a7db, sni: c.whatsapp.net, skip-cert-verify: true}
+  # - {name: LulzServer2, server: idt2.sshocean.net, port: 443, udp: true, type: trojan, password: 3fdcad9b-a8c9-4ebd-b446-8060855b269d, sni: c.whatsapp.net, skip-cert-verify: true}
+  # - {name: LulzServer3, server: idt3.sshocean.net, port: 443, udp: true, type: trojan, password: e0cfa85e-948b-4fe2-9513-27acb83f6b3a, sni: c.whatsapp.net, skip-cert-verify: true}
+  # - {name: LulzServer4, server: sgt2.sshocean.net, port: 443, udp: true, type: trojan, password: 064cfa57-c0f8-43d5-827c-b30236e2e1d5, sni: c.whatsapp.net, skip-cert-verify: true}
+  # - {name: TempServer1, server: sgtcp.mainssh.xyz, port: 443, udp: true, type: trojan, password: mainssh-rtrtrtrt, sni: c.whatsapp.net, skip-cert-verify: true}
+  # - {name: TempServer2, server: idtcp.mainssh.xyz, port: 443, udp: true, type: trojan, password: mainssh-yyyyyyy, sni: c.whatsapp.net, skip-cert-verify: true}
+
+proxy-groups:
+  - name: lulzDev-clash
+    type: load-balance
+    strategy: consistent-hashing
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    proxies:
+      - FastServer1
+      - FastServer2
+      - FastServer3
+      - FastServer4
+      # - FastServer5
+      # - LulzServer2
+      # - LulzServer3
+
+rules:
+ - MATCH,lulzDev-clash
