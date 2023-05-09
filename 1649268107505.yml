@@ -40,9 +40,9 @@ experimental:
 
 proxies:
 
-  - {name: Fast-Sing-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 835ac903-f624-4f29-b8aa-4cbbe5a16014, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Fast-Sing-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: d7797792-8693-4992-89f4-a6c6428180e0, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Fast-Indo-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: 2130e99c-64a7-4e87-8ae5-39babc2ad208, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Fast-Sing-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 49151d92-ab3a-431c-a012-cd58ace7d6e5, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Fast-Sing-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 399ece45-7c91-4712-ade2-79397a0bf97f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Fast-Indo-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: f73bbfe5-3850-47f8-bcdc-b5e1445dd4db, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: FastServer4, server: hk-full.privateip.net, port: 443, udp: true, type: trojan, password: f231b1b8-d0e7-4552-aaaa-84cbd17d6282, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: FastServer5, server: vn-full.privateip.net, port: 443, udp: true, type: trojan, password: ce22ee4e-7c93-4159-bff1-b2b75d0cb968, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UNITEDKINGDOM, server: nl3-full.privateip.net, port: 443, udp: true, type: trojan, password: 6f3fd833-b9f2-4c8f-a204-68bc8b473665, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
