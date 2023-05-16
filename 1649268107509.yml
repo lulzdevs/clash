@@ -39,9 +39,9 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: FastServer1, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 399ece45-7c91-4712-ade2-79397a0bf97f, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: FastServer3, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: e33f2111-5d3c-4d10-ab59-5d50b3ecfa35, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: FastServer1, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: bf3ffa98-918d-409f-a49c-1b0d148234f8, sni: c.whatsapp.net, skip-cert-verify: true}
   - {name: FastServer2, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: f73bbfe5-3850-47f8-bcdc-b5e1445dd4db, sni: c.whatsapp.net, skip-cert-verify: true}
-  - {name: FastServer3, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 49151d92-ab3a-431c-a012-cd58ace7d6e5, sni: c.whatsapp.net, skip-cert-verify: true}
   - {name: FastServer4, server: vn-full.privateip.net, port: 443, udp: true, type: trojan, password: ce22ee4e-7c93-4159-bff1-b2b75d0cb968, sni: c.whatsapp.net, skip-cert-verify: true}
   # - {name: FastServer5, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: d9110794-068e-4d42-8d41-6df6f8d5a7db, sni: c.whatsapp.net, skip-cert-verify: true}
   # - {name: LulzServer2, server: idt2.sshocean.net, port: 443, udp: true, type: trojan, password: 3fdcad9b-a8c9-4ebd-b446-8060855b269d, sni: c.whatsapp.net, skip-cert-verify: true}
