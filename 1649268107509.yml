@@ -39,7 +39,7 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: FastServer3, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: e33f2111-5d3c-4d10-ab59-5d50b3ecfa35, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: FastServer3, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 5fcfcfec-d1da-44c4-a2c3-11ed80139607, sni: c.whatsapp.net, skip-cert-verify: true}
   - {name: FastServer1, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: bf3ffa98-918d-409f-a49c-1b0d148234f8, sni: c.whatsapp.net, skip-cert-verify: true}
   - {name: FastServer2, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: f73bbfe5-3850-47f8-bcdc-b5e1445dd4db, sni: c.whatsapp.net, skip-cert-verify: true}
   - {name: FastServer4, server: vn-full.privateip.net, port: 443, udp: true, type: trojan, password: ce22ee4e-7c93-4159-bff1-b2b75d0cb968, sni: c.whatsapp.net, skip-cert-verify: true}
