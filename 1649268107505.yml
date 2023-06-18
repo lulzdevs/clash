@@ -50,8 +50,8 @@ proxies:
   - {name: Netherlands-1, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: 8c63fc60-668b-40a9-8614-97bef87371b9, sni: us04xmpp1.zoom.us, skip-cert-verify: true}  
   - {name: Canada-1, server: ca-full.privateip.net, port: 443, udp: true, type: trojan, password: c1c11d3e-67b6-4bb2-bceb-e4733462bc10, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UNITEDSTATES3, server: us3-full.privateip.net, port: 443, udp: true, type: trojan, password: 19c327ad-603a-492a-bdd8-e6822793e38a, sni: us04xmpp1.zoom.us, skip-cert-verify: true} 
-  - {name: Temp-1, server: sgt1.sshocean.net, port: 443, udp: true, type: trojan, password: bd60a8d3-dbf8-4880-8139-f28de3a4d421, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}  
-  - {name: Temp-1, server: sgt-3.opensvr.net, port: 443, udp: true, type: trojan, password: 150512c9-bb72-4c94-978b-a7e63ba77c95, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}
+  - {name: OceanServer1, server: sgt1.sshocean.net, port: 443, udp: true, type: trojan, password: bd60a8d3-dbf8-4880-8139-f28de3a4d421, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}  
+  - {name: OceanServer2, server: sgt-3.opensvr.net, port: 443, udp: true, type: trojan, password: 150512c9-bb72-4c94-978b-a7e63ba77c95, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}
 
 proxy-groups:
   - name: lulzDev-clash
