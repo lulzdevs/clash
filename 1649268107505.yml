@@ -51,7 +51,7 @@ proxies:
   # - {name: Canada-1, server: ca-full.privateip.net, port: 443, udp: true, type: trojan, password: c1c11d3e-67b6-4bb2-bceb-e4733462bc10, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: UNITEDSTATES3, server: us3-full.privateip.net, port: 443, udp: true, type: trojan, password: 19c327ad-603a-492a-bdd8-e6822793e38a, sni: us04xmpp1.zoom.us, skip-cert-verify: true} 
   - {name: OceanServer1, server: sgt1.sshocean.net, port: 443, udp: true, type: trojan, password: bdb84121-50d6-47c8-9403-936b4fe28876, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}  
-  - {name: OceanServer2, server: idt1.sshocean.net, port: 443, udp: true, type: trojan, password: 3c7f8c12-7e38-44df-b02f-03af0acc82f4, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}
+  - {name: OceanServer2, server: sgtro.ipservers.xyz, port: 443, udp: true, type: trojan, password: jagoanssh-asasa78, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}
 
 proxy-groups:
   - name: lulzDev-clash
