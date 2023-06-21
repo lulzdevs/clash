@@ -50,7 +50,7 @@ proxies:
   - {name: German-2, server: de2-full.privateip.net, port: 443, udp: true, type: trojan, password: e8530a9b-a3a2-4103-aad2-0c923c6fb423, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: Canada-1, server: ca-full.privateip.net, port: 443, udp: true, type: trojan, password: c1c11d3e-67b6-4bb2-bceb-e4733462bc10, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: UNITEDSTATES3, server: us3-full.privateip.net, port: 443, udp: true, type: trojan, password: 19c327ad-603a-492a-bdd8-e6822793e38a, sni: us04xmpp1.zoom.us, skip-cert-verify: true} 
-  - {name: OceanServer1, server: sgt1.sshocean.net, port: 443, udp: true, type: trojan, password: bdb84121-50d6-47c8-9403-936b4fe28876, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}  
+  - {name: OceanServer1, server: ikd1.hijinetwork.cloud, port: 443, udp: true, type: trojan, password: netq_asasa78, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}  
   - {name: OceanServer2, server: sgtro.ipservers.xyz, port: 443, udp: true, type: trojan, password: jagoanssh-asasa78, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}
 
 proxy-groups:
