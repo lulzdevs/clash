@@ -39,12 +39,12 @@ experimental:
 
 proxies:
 
-  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: f7f573de-150b-445e-b61a-d5c2d8887ec5, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 337f9006-7160-4357-9c9e-3299db8f07de, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: bd9401aa-f729-4e50-93b6-6810d98e71cb, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: 703223cb-9311-4c17-8ca9-47e79091caac, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: HongKong-1, server: hk-full.privateip.net, port: 443, udp: true, type: trojan, password: 70a84786-8bf6-413a-a57b-dfb2549c03d3, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Vietnam-1, server: vn-full.privateip.net, port: 443, udp: true, type: trojan, password: c0d5fcad-cd78-4fd7-88d5-2cf45bb17b91, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  # - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 3ae2a2b4-f82e-4f06-8c57-e4cee7d5a27f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 09065449-83a4-43f7-9250-77cd1e6695f7, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: France, server: fr-full.privateip.net, port: 443, udp: true, type: trojan, password: 0aa29b2d-f12e-4b93-8677-4b5889b9d00b, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: Netherlands-1, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: ef04da8a-db64-4058-ab12-713e42d2e52c, sni: us04xmpp1.zoom.us, skip-cert-verify: true}  
   # - {name: German-2, server: de2-full.privateip.net, port: 443, udp: true, type: trojan, password: e8530a9b-a3a2-4103-aad2-0c923c6fb423, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
@@ -68,7 +68,7 @@ proxy-groups:
       - Indonesia-1
       # - HongKong-1
       - Vietnam-1
-      #- UnitedKingdom-1
+      - UnitedKingdom-1
       # - France
       # - Netherlands-1
       - Turkey-1
