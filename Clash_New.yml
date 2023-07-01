@@ -103,6 +103,7 @@ proxy-groups:
       - Indonesia-1
       - Turkey-1
       - India-1
+      - Indonesia-go
 
 rules:
   - MATCH,lulzDev-clash
