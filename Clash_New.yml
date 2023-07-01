@@ -79,12 +79,23 @@ proxies:
     password: a608d73e-d814-4267-8761-8f9991ffcb69
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
-  - name: Indonesia-go
+  - name: Lithuania-Go
     server: ltt1.sshocean.net
     port: 443
     udp: true
     type: trojan
     password: 9a5fb45c-c2f3-4c78-b773-a55d44573c21
+    network: grpc
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: Singapore-Go
+    server: sgt1.sshocean.net
+    port: 443
+    udp: true
+    type: trojan
+    password: 7889416f-7d7e-49d3-8c11-17f1de9a617c
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -103,7 +114,8 @@ proxy-groups:
       - Indonesia-1
       - Turkey-1
       - India-1
-      - Indonesia-go
+      - Lithuania-Go
+      - Singapore-Go
 
 rules:
   - MATCH,lulzDev-clash
