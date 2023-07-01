@@ -19,7 +19,6 @@ dns:
     ipcidr:
       - 240.0.0.0/4
   nameserver:
-    - 114.114.114.114
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
     - tls://1.1.1.1:853
