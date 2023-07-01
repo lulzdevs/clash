@@ -79,6 +79,30 @@ proxies:
     password: a608d73e-d814-4267-8761-8f9991ffcb69
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
+  - name: ss1
+    type: ss
+    server: in-ss.ipracevpn.com
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: YWVzLTI1Ni1nY206Y2hDckdXV3A2UUBpbi1zcy5pcHJhY2V2cG4uY29tOjI0NDM
+    udp: true
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+  - name: ss2
+    type: ss
+    server: ca-ss.ipracevpn.com
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: YWVzLTI1Ni1nY206UXFNRWRUaVdGVEBjYS1zcy5pcHJhY2V2cG4uY29tOjI0NDM
+    udp: true
+  - name: ss3
+    type: ss
+    server: tr-full.privateip.net
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: YWVzLTI1Ni1nY206ZDkzYzkwNGQtY2Y4MC00N2Q1LTg1YjAtNDc0NjIxN2VkOWVjQHRyLWZ1bGwucHJpdmF0ZWlwLm5ldDo0MDAx
+    udp: true
+
 
 proxy-groups:
   - name: lulzDev-clash
@@ -92,6 +116,9 @@ proxy-groups:
       - Indonesia-1
       - Turkey-1
       - India-1
+      - ss1
+      - ss2
+      - ss3
 
 rules:
   - MATCH,lulzDev-clash
