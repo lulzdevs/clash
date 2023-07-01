@@ -54,6 +54,7 @@ proxies:
   - {name: Turkey-1, server: tr-full.privateip.net, port: 443, udp: true, type: trojan, password: 4b61d1fe-93d5-45d4-ac6e-294ec95f4d5b, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: India-1, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: a608d73e-d814-4267-8761-8f9991ffcb69, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: German-1, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: eb48d6cb-5c62-41d3-a5bb-14aa9cffe789, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: kz-1, server: kz-full.privateip.net, port: 443, udp: true, type: trojan, password: 2e833931-e2dd-4490-b679-7e78236bf4dc, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: OceanServer1, server: idtro.ipservers.xyz, port: 443, udp: true, type: trojan, password: jagoanssh-afsdfsdfs, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}  
   - {name: OceanServer2, server: sgtro.ipservers.xyz, port: 443, udp: true, type: trojan, password: jagoanssh-asasa78, sni: us04xmpp1.zoom.us, skip-cert-verify: true, allowInsecure: true}
 
@@ -78,6 +79,7 @@ proxy-groups:
       # - German-1
       #- Canada-1
       #- UNITEDSTATES3
+      - kz-1
       - OceanServer1
       - OceanServer2
 
