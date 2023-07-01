@@ -95,8 +95,6 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: YWVzLTI1Ni1nY206UXFNRWRUaVdGVEBjYS1zcy5pcHJhY2V2cG4uY29tOjI0NDM
     udp: true
-    sni: us04xmpp1.zoom.us
-    skip-cert-verify: true
 
 
 proxy-groups:
