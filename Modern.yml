@@ -1,0 +1,103 @@
+# Clash VPN Configuration
+
+# General Settings
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 0.0.0.0:9090
+
+# DNS Settings
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host
+  nameserver:
+    - 223.5.5.5
+    - 223.6.6.6
+    - 114.114.114.114
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
+
+# Proxy Providers
+Proxy:
+  - name: IndiaSS-1
+    type: ss
+    server: in-ss.ipracevpn.com
+    port: 443
+    cipher: aes-256-gcm
+    password: YWVzLTI1Ni1nY206Y2hDckdXV3A2UUBpbi1zcy5pcHJhY2V2cG4uY29tOjI0NDM
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: in-ss.ipracevpn.com
+
+  - name: CanadaSS-1
+    type: ss
+    server: ca-ss.ipracevpn.com
+    port: 443
+    cipher: aes-256-gcm
+    password: YWVzLTI1Ni1nY206UXFNRWRUaVdGVEBjYS1zcy5pcHJhY2V2cG4uY29tOjI0NDM
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: ca-ss.ipracevpn.com
+
+  - name: SingaporeSS-1
+    type: vmess
+    server: sg-full.privateip.net
+    port: 443
+    uuid: eyJ2IjoiMiIsInBzIjoidm1lc3Mtd3MtdGxzIiwiYWRkIjoic2ctZnVsbC5wcml2YXRlaXAubmV0IiwicG9ydCI6IjQ0MyIsImlkIjoiZmRjNGVkMWEtZDA4Zi00MjRkLTkyYzctYWQwYjljYWE5NWRkIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii9yYWNldnBuIiwidGxzIjoidGxzIn0=
+    alterId: 64
+    cipher: auto
+    udp: true
+
+# Rule Settings
+Rule:
+  - MATCH, LulzDev-NEW
+
+# Routing Settings
+Routing:
+  domain-strategy: ip-cidr, geosite, china, usa
+
+# Miscellaneous
+Proxy Group:
+  - name: LulzGroup
+    type: select
+    proxies:
+      - IndiaSS-1
+      - CanadaSS-1
+      - SingaporeSS-1
+  - name: ProxyGroup2
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - LulzGroup
+    success-proxy: IndiaSS-1
+    failure-proxy: SingaporeSS-1
+  - name: FinalProxyGroup
+    type: select
+    proxies:
+      - ProxyGroup2
+      - CanadaSS-1
+
+# Rule-Based Network
+Rule-Based Network:
+  - name: ProxyRule
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - IndiaSS-1
+    strategy: latency
+    region: global
+
