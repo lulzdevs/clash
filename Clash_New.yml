@@ -95,6 +95,13 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: YWVzLTI1Ni1nY206UXFNRWRUaVdGVEBjYS1zcy5pcHJhY2V2cG4uY29tOjI0NDM
     udp: true
+  - name: "ss3"
+    type: ss
+    server: tr-full.privateip.net
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: YWVzLTI1Ni1nY206ZDkzYzkwNGQtY2Y4MC00N2Q1LTg1YjAtNDc0NjIxN2VkOWVjQHRyLWZ1bGwucHJpdmF0ZWlwLm5ldDo0MDAx
+    udp: true
 
 
 proxy-groups:
