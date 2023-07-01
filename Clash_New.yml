@@ -80,11 +80,11 @@ proxies:
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: Indonesia-go
-    server: idt1.sshocean.net
+    server: ltt1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 6bfc6394-8083-469a-abd2-5b9acd85242f
+    password: 9a5fb45c-c2f3-4c78-b773-a55d44573c21
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
