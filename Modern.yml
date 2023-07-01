@@ -4,7 +4,7 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-mode: Rule
+mode: global
 log-level: info
 external-controller: 0.0.0.0:9090
 
@@ -70,24 +70,26 @@ Routing:
 Proxy Group:
   - name: LulzGroup
     type: select
+    url: http://www.gstatic.com/generate_204
+    strategy: latency
     proxies:
       - IndiaSS-1
       - CanadaSS-1
       - SingaporeSS-1
-  - name: ProxyGroup2
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - LulzGroup
-    success-proxy: IndiaSS-1
-    failure-proxy: SingaporeSS-1
-  - name: FinalProxyGroup
-    type: select
-    proxies:
-      - ProxyGroup2
-      - CanadaSS-1
+  # - name: ProxyGroup2
+  #   type: url-test
+  #   url: http://www.gstatic.com/generate_204
+  #   interval: 300
+  #   tolerance: 100
+  #   proxies:
+  #     - LulzGroup
+  #   success-proxy: IndiaSS-1
+  #   failure-proxy: SingaporeSS-1
+  # - name: FinalProxyGroup
+  #   type: select
+  #   proxies:
+  #     - ProxyGroup2
+  #     - CanadaSS-1
 
 # Rule-Based Network
 Rule-Based Network:
@@ -98,6 +100,7 @@ Rule-Based Network:
     tolerance: 100
     proxies:
       - IndiaSS-1
+      - CanadaSS-1
+      - SingaporeSS-1
     strategy: latency
     region: global
-
