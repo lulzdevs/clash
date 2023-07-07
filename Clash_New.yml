@@ -73,7 +73,7 @@ proxies:
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
-    grpc-service-name: grpc
+      grpc-service-name: grpc
   - name: Canada-Go
     server: cat1.sshocean.net
     port: 443
@@ -84,7 +84,7 @@ proxies:
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
-    grpc-service-name: grpc
+      grpc-service-name: grpc
   - name: Lithuania-Go
     server: ltt1.sshocean.net
     port: 443
@@ -95,7 +95,7 @@ proxies:
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
-    grpc-service-name: grpc
+      grpc-service-name: grpc
   - name: Singapore-Go
     server: sgt1.sshocean.net
     port: 443
@@ -106,7 +106,8 @@ proxies:
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
-    grpc-service-name: grpc
+      grpc-service-name: grpc
+    
 
 proxy-groups:
   - name: lulzDev-clash
