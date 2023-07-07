@@ -39,68 +39,74 @@ experimental:
   interface-name: en0
 
 proxies:
-  - name: Singapore-1
-    server: sg-full.privateip.net
+  # - name: Singapore-1
+  #   server: sg-full.privateip.net
+  #   port: 443
+  #   udp: true
+  #   type: trojan
+  #   password: 337f9006-7160-4357-9c9e-3299db8f07de
+  #   sni: us04xmpp1.zoom.us
+  #   skip-cert-verify: true
+  # - name: Singapore-2
+  #   server: sg2-full.privateip.net
+  #   port: 443
+  #   udp: true
+  #   type: trojan
+  #   password: bd9401aa-f729-4e50-93b6-6810d98e71cb
+  #   sni: us04xmpp1.zoom.us
+  #   skip-cert-verify: true
+  # - name: Indonesia-1
+  #   server: id-full.privateip.net
+  #   port: 443
+  #   udp: true
+  #   type: trojan
+  #   password: 703223cb-9311-4c17-8ca9-47e79091caac
+  #   sni: us04xmpp1.zoom.us
+  #   skip-cert-verify: true
+  - name: Indonesia-Go
+    server: idt1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 337f9006-7160-4357-9c9e-3299db8f07de
+    password: 8e33d0b5-0d8b-42cd-a2d1-8af1a7e8c66c
+    network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
-  - name: Singapore-2
-    server: sg2-full.privateip.net
+    grpc-opts:
+    grpc-service-name: grpc
+  - name: Canada-Go
+    server: cat1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: bd9401aa-f729-4e50-93b6-6810d98e71cb
+    password: 2073701b-ea0b-44a6-9460-dadc3f8036c9
+    network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
-  - name: Indonesia-1
-    server: id-full.privateip.net
-    port: 443
-    udp: true
-    type: trojan
-    password: 703223cb-9311-4c17-8ca9-47e79091caac
-    sni: us04xmpp1.zoom.us
-    skip-cert-verify: true
-  - name: Turkey-1
-    server: tr-full.privateip.net
-    port: 443
-    udp: true
-    type: trojan
-    password: 4b61d1fe-93d5-45d4-ac6e-294ec95f4d5b
-    sni: us04xmpp1.zoom.us
-    skip-cert-verify: true
-  - name: India-1
-    server: in-full.privateip.net
-    port: 443
-    udp: true
-    type: trojan
-    password: a608d73e-d814-4267-8761-8f9991ffcb69
-    sni: us04xmpp1.zoom.us
-    skip-cert-verify: true
+    grpc-opts:
+    grpc-service-name: grpc
   - name: Lithuania-Go
     server: ltt1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 9a5fb45c-c2f3-4c78-b773-a55d44573c21
+    password: 5b741117-bdc4-4923-91a8-38f85704e517
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: grpc
+    grpc-service-name: grpc
   - name: Singapore-Go
     server: sgt1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 7889416f-7d7e-49d3-8c11-17f1de9a617c
+    password: 8f783028-2995-4010-ac82-b9e8e65fcc30
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: grpc
+    grpc-service-name: grpc
 
 proxy-groups:
   - name: lulzDev-clash
@@ -109,11 +115,11 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      - Singapore-1
-      - Singapore-2
-      - Indonesia-1
-      - Turkey-1
-      - India-1
+      # - Singapore-1
+      # - Singapore-2
+      # - Indonesia-1
+      - Indonesia-Go
+      - Canada-Go
       - Lithuania-Go
       - Singapore-Go
 
