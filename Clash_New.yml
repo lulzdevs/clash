@@ -97,11 +97,11 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
   - name: Singapore-Go
-    server: sgt1.sshocean.net
+    server: sgt3.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 8f783028-2995-4010-ac82-b9e8e65fcc30
+    password: 69811f07-6cac-4547-9a34-03fe41daec9c
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
