@@ -107,6 +107,17 @@ proxies:
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
+  - name: Singapore-Go-OLD
+    server: sgt1.sshocean.net
+    port: 443
+    udp: true
+    type: trojan
+    password: 7889416f-7d7e-49d3-8c11-17f1de9a617c
+    network: grpc
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpc
     
 
 proxy-groups:
@@ -123,6 +134,7 @@ proxy-groups:
       - Canada-Go
       - Lithuania-Go
       - Singapore-Go
+      - Singapore-Go-OLD
 
 rules:
   - MATCH,lulzDev-clash
