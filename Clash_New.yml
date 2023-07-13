@@ -64,11 +64,11 @@ proxies:
   #   sni: us04xmpp1.zoom.us
   #   skip-cert-verify: true
   - name: Indonesia-Go
-    server: idt1.sshocean.net
+    server: idt2.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 8e33d0b5-0d8b-42cd-a2d1-8af1a7e8c66c
+    password: f578c2c6-cd50-46b6-9eaa-845bfdab703d
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -97,11 +97,11 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
   - name: Singapore-Go
-    server: sgt3.sshocean.net
+    server: sgt1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 69811f07-6cac-4547-9a34-03fe41daec9c
+    password: 54cd8cf3-1ae8-41b4-ad97-51beecddaad3
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
