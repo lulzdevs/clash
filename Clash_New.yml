@@ -127,8 +127,8 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      - Singapore-1
-      # - Singapore-2
+      # - Singapore-1
+      - Singapore-2
       - India-1
       - Indonesia-Go
       - Canada-Go
