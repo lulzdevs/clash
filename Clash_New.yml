@@ -68,7 +68,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: a3a1e24f-ff01-42df-bd0b-333109115eb2
+    password: c23356f7-d46c-4258-81b1-c9fe2ddc0e7c
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -90,7 +90,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 5bbc9157-4dcd-4f93-b64c-cd5ee2ff5a19
+    password: 57628b37-c89d-42b3-8f56-1d5f7238c087
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -101,7 +101,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 54cd8cf3-1ae8-41b4-ad97-51beecddaad3
+    password: 85e6e5aa-d7e7-4c9d-ad29-a46f81404602
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -112,7 +112,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 0e193733-4efd-4229-97a4-35c3727009e9
+    password: c2b117c3-4f7e-4ffb-a331-d85dadf5ec66
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
