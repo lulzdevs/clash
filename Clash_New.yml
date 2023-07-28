@@ -114,7 +114,7 @@ proxies:
     type: trojan
     password: c2b117c3-4f7e-4ffb-a331-d85dadf5ec66
     network: grpc
-    sni: us04xmpp1.zoom.us
+    sni: media-exp1.licdn.com
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
