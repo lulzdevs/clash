@@ -134,7 +134,7 @@ proxy-groups:
       - Indonesia-Go-2
       - Lithuania-Go
       - Singapore-Go
-      - Singapore-Go-OLD
+      - Singapore-TU
 
 rules:
   - MATCH,lulzDev-clash
