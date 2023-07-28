@@ -97,22 +97,22 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
   - name: Singapore-Go
-    server: sgt1.sshocean.net
+    server: xray.vpnjos.live
     port: 443
     udp: true
     type: trojan
-    password: 85e6e5aa-d7e7-4c9d-ad29-a46f81404602
+    password: 5c9fd2f3-6b98-4583-a9d8-25234b7f4c22
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
-  - name: Singapore-Go-OLD
-    server: sgt3.sshocean.net
+  - name: Singapore-TU
+    server: ray.vpnjos.live
     port: 443
     udp: true
     type: trojan
-    password: c2b117c3-4f7e-4ffb-a331-d85dadf5ec66
+    password: 5e0bef9e-48f0-480e-8380-a3b3b6d6e1ca
     network: grpc
     sni: media-exp1.licdn.com
     skip-cert-verify: true
