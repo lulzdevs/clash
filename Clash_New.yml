@@ -108,11 +108,11 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
   - name: Turkey-Mobitel
-    server: tr-full.privateip.net
+    server: vn-full.privateip.net
     port: 443
     udp: true
     type: trojan
-    password: 86c0e6d3-9351-463c-8569-7146dd6e02d5
+    password: bf717912-ab00-4af1-aa79-1000e1836c8c
     network: grpc
     sni: media-exp1.licdn.com
     skip-cert-verify: true
