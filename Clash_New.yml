@@ -48,11 +48,11 @@ proxies:
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: Singapore-2
-    server: sg2-full.privateip.net
+    server: sg-full.privateip.net
     port: 443
     udp: true
     type: trojan
-    password: 25c0af36-9f04-4bc4-b3c8-7ab178ce9535
+    password: 0ff6a00f-4ac5-4f6a-96b8-61fce18bc037
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: India-1
@@ -64,11 +64,11 @@ proxies:
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: Indonesia-Go
-    server: idt1.sshocean.net
+    server: idt6.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: c23356f7-d46c-4258-81b1-c9fe2ddc0e7c
+    password: c8f64251-69cf-4733-b903-3485cf8664b3
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -90,29 +90,29 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 57628b37-c89d-42b3-8f56-1d5f7238c087
+    password: 3aeae03c-fb37-4e92-95b3-9ccfb3a1ee3a
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
   - name: Singapore-Go
-    server: xray.vpnjos.live
+    server: sgt1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 5c9fd2f3-6b98-4583-a9d8-25234b7f4c22
+    password: 51ea2020-fcd2-4402-916c-b7cd7f41981b
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
   - name: Turkey-Mobitel
-    server: vn-full.privateip.net
+    server: aut1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: bf717912-ab00-4af1-aa79-1000e1836c8c
+    password: 93938a4e-33e7-4e7b-83ea-8e25359fba13
     network: grpc
     sni: media-exp1.licdn.com
     skip-cert-verify: true
