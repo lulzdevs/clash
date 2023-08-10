@@ -75,11 +75,11 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
   - name: Indonesia-Go-2
-    server: idt4.sshocean.net
+    server: idt2.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 17a7db83-a714-4736-a172-0c342d808dc6
+    password: ad5efb7b-7193-40c6-b935-d0528a6259c6
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -90,7 +90,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 3aeae03c-fb37-4e92-95b3-9ccfb3a1ee3a
+    password: 11161797-bfc5-4e25-8731-7de4080c2a6a
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -101,18 +101,18 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 51ea2020-fcd2-4402-916c-b7cd7f41981b
+    password: 307d8d23-ca7f-4033-bedc-857ff68a0077
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
-  - name: Turkey-Mobitel
+  - name: Australia-Go
     server: aut1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 93938a4e-33e7-4e7b-83ea-8e25359fba13
+    password: 1ab81fcd-b41f-44c5-b4f7-5ae5d77130ba
     network: grpc
     sni: media-exp1.licdn.com
     skip-cert-verify: true
@@ -134,7 +134,7 @@ proxy-groups:
       - Indonesia-Go-2
       - Lithuania-Go
       - Singapore-Go
-      - Turkey-Mobitel
+      - Australia-Go
 
 rules:
   - MATCH,lulzDev-clash
