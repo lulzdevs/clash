@@ -118,20 +118,7 @@ proxies:
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
-  - name: Clash,
-      server: 146.190.106.15,
-      port: 50889,
-      type: vmess,
-      uuid: c3055ed6-89eb-4e3e-92d9-512cc28f1987,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: false,
-      servername: media-exp1.licdn.com,
-      network: ws,
-      ws-opts: { path: /, headers: { Host: media-exp1.licdn.com } },
-    
-
+      
 proxy-groups:
   - name: lulzDev-clash
     type: load-balance
