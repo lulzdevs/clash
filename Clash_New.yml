@@ -40,19 +40,19 @@ experimental:
 
 proxies:
   - name: Vietnam-1
-    server: vn-full.privateip.net
-    port: 443
-    udp: true
-    type: trojan
-    password: bf717912-ab00-4af1-aa79-1000e1836c8c
-    sni: us04xmpp1.zoom.us
-    skip-cert-verify: true
-  - name: Singapore-2
     server: sg-full.privateip.net
     port: 443
     udp: true
     type: trojan
-    password: 0ff6a00f-4ac5-4f6a-96b8-61fce18bc037
+    password: 9268b4f3-de51-492b-a758-11653587844e
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+  - name: Singapore-2
+    server: sg2-full.privateip.net
+    port: 443
+    udp: true
+    type: trojan
+    password: 1a6c9637-7bf5-41a2-855d-3035c8699709
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: India-1
@@ -118,6 +118,18 @@ proxies:
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
+  - name: Clash,
+      server: 146.190.106.15,
+      port: 50889,
+      type: vmess,
+      uuid: c3055ed6-89eb-4e3e-92d9-512cc28f1987,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: false,
+      servername: media-exp1.licdn.com,
+      network: ws,
+      ws-opts: { path: /, headers: { Host: media-exp1.licdn.com } },
     
 
 proxy-groups:
