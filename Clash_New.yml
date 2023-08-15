@@ -44,7 +44,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 9268b4f3-de51-492b-a758-11653587844e
+    password: 52e631cf-2769-4640-a178-693a463eb191
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: Singapore-2
