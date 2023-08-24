@@ -68,18 +68,18 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 44a2615e-4bc7-4145-a8cf-b70219560e3d
+    password: b944f390-dd77-4b92-9ade-4e9ceb5a1e99
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
   - name: USA-Go
-    server: ust2.sshocean.net
+    server: ust1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: b1155705-012c-406f-b9ee-39dd01e3bfe3
+    password: 4e18c059-2852-4a82-a903-80faa874da00
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -90,7 +90,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 1d346ad3-b925-44fb-83bc-d8f696758eb9
+    password: 9d53daf5-94ec-4c16-8df3-3932752f508a
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -101,7 +101,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 892f1594-8220-4ffa-8657-3e95ed100a4b
+    password: 030bdfdb-bdf4-43ee-921d-9ecd26156b10
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -112,7 +112,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 471726f1-2087-4651-a7ae-f741103a1f83
+    password: 5427489c-3544-4690-8200-7f85d202d2bc
     network: grpc
     sni: media-exp1.licdn.com
     skip-cert-verify: true
