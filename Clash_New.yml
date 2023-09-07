@@ -85,12 +85,12 @@ proxies:
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
-  - name: Lithuania-Go
-    server: ltt1.sshocean.net
+  - name: Australia-Go
+    server: aut1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 701f3e50-24bc-4ded-977c-86f8d6123840
+    password: cff8a7e3-e44d-46d5-a0e6-7d9338ec5229
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -142,7 +142,7 @@ proxy-groups:
       # - India-1
       - Indonesia-Go
       - USA-Go
-      - Lithuania-Go
+      - Australia-Go
       - Singapore-Go
       - Singapore-Go-2
       - Lithuania-Go
