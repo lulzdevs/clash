@@ -39,14 +39,14 @@ experimental:
   interface-name: en0
 
 proxies:
-  # - name: Vietnam-1
-  #   server: sg-full.privateip.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: 52e631cf-2769-4640-a178-693a463eb191
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
+  - name: UK
+    server: ukt-1.opensvr.net
+    port: 443
+    udp: true
+    type: trojan
+    password: opentunnel.net-luzz511
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
   - name: Indonesia
     server: idt-1.opensvr.net
     port: 443
@@ -71,14 +71,6 @@ proxies:
     password: opentunnel.net-luzl11116
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
-  # - name: India-1
-  #   server: in-full.privateip.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: b476fdc1-b96e-49b9-9f04-cfb334225a6a
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
   - name: Indonesia-Go
     server: idt1.sshocean.net
     port: 443
@@ -164,6 +156,7 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
+      - UK
       - Indonesia
       - Singapore
       - USA
