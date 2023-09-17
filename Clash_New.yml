@@ -39,20 +39,20 @@ experimental:
   interface-name: en0
 
 proxies:
-  - name: Spain
-    server: es-full.privateip.net
+  - name: NL
+    server: nlt-1.opensvr.net
     port: 443
     udp: true
     type: trojan
-    password: aef68916-b0cb-4d41-9f7a-e8770d56f273
+    password: opentunnel.net-lulzz996
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
-  - name: Ukrain
-    server: ua-full.privateip.net
+  - name: CA
+    server: cat-1.opensvr.net
     port: 443
     udp: true
     type: trojan
-    password: 3ce857d6-4814-42cc-aea2-3f65c58fd0b4
+    password: opentunnel.net-lulzz55
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: Indonesia
@@ -164,8 +164,8 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      - Spain
-      - Ukrain
+      - NL
+      - CA
       - Indonesia
       - Singapore
       - DK
