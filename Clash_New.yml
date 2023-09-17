@@ -53,7 +53,7 @@ proxies:
     udp: true
     type: trojan
     password: a94607f1-cbb4-469a-abbd-cef5caa27e29
-    sni: us04xmpp1.zoom.us
+    sni: us02web.zoom.us
     skip-cert-verify: true
   # - name: India-1
   #   server: in-full.privateip.net
@@ -81,7 +81,7 @@ proxies:
     type: trojan
     password: ba7338cd-7970-4671-9cc1-5f12e91d40df
     network: grpc
-    sni: us04xmpp1.zoom.us
+    sni: us02web.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
