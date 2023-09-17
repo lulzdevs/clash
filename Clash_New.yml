@@ -47,14 +47,14 @@ proxies:
   #   password: 52e631cf-2769-4640-a178-693a463eb191
   #   sni: us04xmpp1.zoom.us
   #   skip-cert-verify: true
-  # - name: Singapore-2
-  #   server: sg2-full.privateip.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: 1a6c9637-7bf5-41a2-855d-3035c8699709
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
+  - name: Singapore-2
+    server: sg2-full.privateip.net
+    port: 443
+    udp: true
+    type: trojan
+    password: a94607f1-cbb4-469a-abbd-cef5caa27e29
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
   # - name: India-1
   #   server: in-full.privateip.net
   #   port: 443
@@ -64,11 +64,22 @@ proxies:
   #   sni: us04xmpp1.zoom.us
   #   skip-cert-verify: true
   - name: Indonesia-Go
-    server: idt3.sshocean.net
+    server: idt1.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 31a3f226-6397-4d22-beed-1fe4101dffda
+    password: 45875c85-f4f5-41a5-9561-afaf0894d8b4
+    network: grpc
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: Indonesia-Go-2
+    server: idt2.sshocean.net
+    port: 443
+    udp: true
+    type: trojan
+    password: ba7338cd-7970-4671-9cc1-5f12e91d40df
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -101,7 +112,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 2e8debfa-4316-4199-961a-53618ad838dc
+    password: 8e3dc76a-e3fb-4a02-810b-f2abd8b70c3f
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -112,9 +123,9 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: f838a3de-5e18-4353-8a8b-360989f264ce
+    password: f2fcd8a1-49d0-436f-b6b0-299713e11f32
     network: grpc
-    sni: media-exp1.licdn.com
+    sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
@@ -123,7 +134,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 015db30b-fe87-44c7-93eb-1444a2c8034f
+    password: 8792dc18-2f2f-4de7-938b-0015644585b8
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -138,9 +149,10 @@ proxy-groups:
     interval: 300
     proxies:
       # - Vietnam-1
-      # - Singapore-2
+      - Singapore-2
       # - India-1
       - Indonesia-Go
+      - Indonesia-Go-2
       - USA-Go
       - Australia-Go
       - Singapore-Go
