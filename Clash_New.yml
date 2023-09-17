@@ -47,13 +47,30 @@ proxies:
   #   password: 52e631cf-2769-4640-a178-693a463eb191
   #   sni: us04xmpp1.zoom.us
   #   skip-cert-verify: true
-  - name: Singapore-2
+  - name: Indonesia
     server: idt-1.opensvr.net
     port: 443
     udp: true
     type: trojan
     password: opentunnel.net-as56111
     sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+  - name: Singapore
+    server: sgt-1.opensvr.net
+    port: 443
+    udp: true
+    type: trojan
+    password: opentunnel.net-luz444
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+  - name: USA
+    server: ust-2.opensvr.net
+    port: 443
+    udp: true
+    type: trojan
+    password: opentunnel.net-luzl11116
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
   # - name: India-1
   #   server: in-full.privateip.net
   #   port: 443
@@ -147,9 +164,9 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      # - Vietnam-1
-      - Singapore-2
-      # - India-1
+      - Indonesia
+      - Singapore
+      - USA
       - Indonesia-Go
       - Indonesia-Go-2
       - USA-Go
