@@ -1,105 +1,42 @@
-port: 7890
-socks-port: 7891
-redir-port: 7892
-mixed-port: 7893
-tproxy-port: 7895
-ipv6: false
-mode: rule
-log-level: silent
+# Clash configuration
+mixed-port: 7890
 allow-lan: true
-external-controller: 0.0.0.0:9090
-secret: ""
-bind-address: "*"
-unified-delay: true
-profile:
-  store-selected: true
-dns:
-  enable: true
-  ipv6: false
-  enhanced-mode: redir-host
-  listen: 0.0.0.0:7874
-  nameserver:
-    - 8.8.8.8
-    - 1.0.0.1
-    - https://dns.google/dns-query
-  fallback:
-    - 1.1.1.1
-    - 8.8.4.4
-    - https://cloudflare-dns.com/dns-query
-    - 112.215.203.254
-  default-nameserver:
-    - 8.8.8.8
-    - 1.1.1.1
-    - 112.215.203.254
+mode: Rule
+log-level: info
+external-controller: 0.0.0.0:9090 # Optional: Enables the external controller for remote management
+
 proxies:
-  - name: Test VMESS 1
-    server: sg3.xv2ray.net
-    port: 443
-    type: vmess
-    uuid: 6b95bd4d-a729-4622-a4ef-6a94380014b8
-    alterId: 0
-    cipher: auto
-    tls: false
+  - name: 'Shadowsocks Server'
+    type: shadowsocks
+    server: id03.proxysocks.xyz
+    port: 8388
+    password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaRGMwTw==
+    cipher: chacha20-ietf-poly1305
+    udp: false
+    sni: us04xmpp1.zoom.us
     skip-cert-verify: true
-    servername: us02web.zoom.us
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us02web.zoom.us
-    udp: true
-  - name: Test VMESS 2
-    server: sg1.xv2ray.net
-    port: 443
-    type: vmess
-    uuid: 9202422b-c097-4d5d-93b8-9b86cc0c0d22
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: us04xmpp1.zoom.us
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us04xmpp1.zoom.us
-    udp: true
+
+  - name: 'HTTP Proxy'
+    type: http
+    server: your-http-proxy-server.com
+    port: 8080
+    username: your-http-proxy-username # Optional: If required by your HTTP proxy
+    password: your-http-proxy-password # Optional: If required by your HTTP proxy
+
+  - name: 'SOCKS5 Proxy'
+    type: socks5
+    server: your-socks5-proxy-server.com
+    port: 1080
+    username: your-socks5-proxy-username # Optional: If required by your SOCKS5 proxy
+    password: your-socks5-proxy-password # Optional: If required by your SOCKS5 proxy
+
 proxy-groups:
-  - name: LULZ SERVERS
+  - name: 'Proxy'
     type: select
     proxies:
-      - Test VMESS 1
-      - LOAD-BALANCE
-      - BEST-PING
-      - FALLBACK
-      - DIRECT
-  - name: LOAD-BALANCE
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://hi.bonds.id/ping
-    interval: 300
-    proxies:
-      - RX Tunnel
-  - name: BEST-PING
-    type: url-test
-    url: http://hi.bonds.id/ping
-    interval: 300
-    tolerance: 50
-    proxies:
-      - RX Tunnel
-  - name: FALLBACK
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    proxies:
-      - RX Tunnel
-rule-providers:
-  clash:
-    type: http
-    behavior: domain
-    url: https://howdy.id/download/rules/clash.txt
-    path: ./providers/rule-provider_clash.yaml
-    interval: 86400
+      - 'Shadowsocks Server'
+      - 'HTTP Proxy'
+      - 'SOCKS5 Proxy'
+
 rules:
-  - RULE-SET,clash,REJECT
-  - MATCH,RX TUNNEL SERVER
+  - RULE-SET,Proxy
