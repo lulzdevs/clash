@@ -64,11 +64,11 @@ proxies:
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: USA
-    server: ust-2.opensvr.net
+    server: sg-freevmess.privateip.net
     port: 443
     udp: true
     type: trojan
-    password: opentunnel.net-luzl11116
+    password: 49d15120-e7d4-40d5-b256-32f9ce88e551
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: Indonesia-Go
