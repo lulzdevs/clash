@@ -39,57 +39,57 @@ experimental:
   interface-name: en0
 
 proxies:
-  - name: NL
-    server: nlt-1.opensvr.net
-    port: 443
-    udp: true
-    type: trojan
-    password: opentunnel.net-lulzz996
-    sni: us04xmpp1.zoom.us
-    skip-cert-verify: true
-  - name: CA
-    server: cat-1.opensvr.net
-    port: 443
-    udp: true
-    type: trojan
-    password: opentunnel.net-lulzz55
-    sni: us04xmpp1.zoom.us
-    skip-cert-verify: true
-  - name: Indonesia
-    server: idt-1.opensvr.net
-    port: 443
-    udp: true
-    type: trojan
-    password: opentunnel.net-as56111
-    sni: us04xmpp1.zoom.us
-    skip-cert-verify: true
-  - name: Singapore
-    server: sgt-1.opensvr.net
-    port: 443
-    udp: true
-    type: trojan
-    password: opentunnel.net-luz444
-    sni: us04xmpp1.zoom.us
-    skip-cert-verify: true
-  - name: DK
-    server: det-1.opensvr.net
-    port: 443
-    udp: true
-    type: trojan
-    password: opentunnel.net-lulzdev666
-    sni: us04xmpp1.zoom.us
-    skip-cert-verify: true
-  # - name: Indonesia-Go
-  #   server: idt1.sshocean.net
+  # - name: NL
+  #   server: nlt-1.opensvr.net
   #   port: 443
   #   udp: true
   #   type: trojan
-  #   password: 45875c85-f4f5-41a5-9561-afaf0894d8b4
-  #   network: grpc
+  #   password: opentunnel.net-lulzz996
   #   sni: us04xmpp1.zoom.us
   #   skip-cert-verify: true
-  #   grpc-opts:
-  #     grpc-service-name: grpc
+  # - name: CA
+  #   server: cat-1.opensvr.net
+  #   port: 443
+  #   udp: true
+  #   type: trojan
+  #   password: opentunnel.net-lulzz55
+  #   sni: us04xmpp1.zoom.us
+  #   skip-cert-verify: true
+  # - name: Indonesia
+  #   server: idt-1.opensvr.net
+  #   port: 443
+  #   udp: true
+  #   type: trojan
+  #   password: opentunnel.net-as56111
+  #   sni: us04xmpp1.zoom.us
+  #   skip-cert-verify: true
+  # - name: Singapore
+  #   server: sgt-1.opensvr.net
+  #   port: 443
+  #   udp: true
+  #   type: trojan
+  #   password: opentunnel.net-luz444
+  #   sni: us04xmpp1.zoom.us
+  #   skip-cert-verify: true
+  # - name: DK
+  #   server: det-1.opensvr.net
+  #   port: 443
+  #   udp: true
+  #   type: trojan
+  #   password: opentunnel.net-lulzdev666
+  #   sni: us04xmpp1.zoom.us
+  #   skip-cert-verify: true
+  - name: Indonesia-Go
+    server: id6.trojanvpn.de
+    port: 443
+    udp: true
+    type: trojan
+    password: 35c3b98c-c3ce-4125-ba3b-375ac4f67e4c
+    network: grpc
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpc
   # - name: Indonesia-Go-2
   #   server: idt2.sshocean.net
   #   port: 443
@@ -123,39 +123,39 @@ proxies:
   #   skip-cert-verify: true
   #   grpc-opts:
   #     grpc-service-name: grpc
-  # - name: Singapore-Go
-  #   server: sgt1.sshocean.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: 8e3dc76a-e3fb-4a02-810b-f2abd8b70c3f
-  #   network: grpc
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
-  #   grpc-opts:
-  #     grpc-service-name: grpc
-  # - name: Singapore-Go-2
-  #   server: sgt2.sshocean.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: f2fcd8a1-49d0-436f-b6b0-299713e11f32
-  #   network: grpc
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
-  #   grpc-opts:
-  #     grpc-service-name: grpc
-  # - name: Lithuania-Go
-  #   server: ltt1.sshocean.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: 8792dc18-2f2f-4de7-938b-0015644585b8
-  #   network: grpc
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
-  #   grpc-opts:
-  #     grpc-service-name: grpc
+  - name: Singapore-Go
+    server: sg1.trojanvpn.de
+    port: 443
+    udp: true
+    type: trojan
+    password: 2381916a-e4a9-4063-95ef-941b6b420028
+    network: grpc
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: Singapore-Go-2
+    server: sg2.trojanvpn.de
+    port: 443
+    udp: true
+    type: trojan
+    password: 423770fc-dc27-428d-9651-53dd611fc27b
+    network: grpc
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: Lithuania-Go
+    server: lt1.trojanvpn.de
+    port: 443
+    udp: true
+    type: trojan
+    password: bf09e7f1-7fa2-4f1e-9f4e-c024a6c2fc2a
+    network: grpc
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpc
       
 proxy-groups:
   - name: lulzDev-clash
@@ -164,18 +164,18 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      - NL
-      - CA
-      - Indonesia
-      - Singapore
-      - DK
-      # - Indonesia-Go
+      # - NL
+      # - CA
+      # - Indonesia
+      # - Singapore
+      # - DK
+      - Indonesia-Go
       # - Indonesia-Go-2
       # - USA-Go
       # - Australia-Go
-      # - Singapore-Go
-      # - Singapore-Go-2
-      # - Lithuania-Go
+      - Singapore-Go
+      - Singapore-Go-2
+      - Lithuania-Go
 
 rules:
   - MATCH,lulzDev-clash
