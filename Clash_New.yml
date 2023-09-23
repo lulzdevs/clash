@@ -101,17 +101,17 @@ proxies:
   #   skip-cert-verify: true
   #   grpc-opts:
   #     grpc-service-name: grpc
-  # - name: USA-Go
-  #   server: ust2.sshocean.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: b1155705-012c-406f-b9ee-39dd01e3bfe3
-  #   network: grpc
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
-  #   grpc-opts:
-  #     grpc-service-name: grpc
+  - name: USA-Go
+    server: us1.trojanvpn.de
+    port: 443
+    udp: true
+    type: trojan
+    password: 6ad893f3-bc19-4515-a35f-3af63d583f2a
+    network: grpc
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpc
   # - name: Australia-Go
   #   server: aut1.sshocean.net
   #   port: 443
@@ -171,7 +171,7 @@ proxy-groups:
       # - DK
       - Indonesia-Go
       # - Indonesia-Go-2
-      # - USA-Go
+      - USA-Go
       # - Australia-Go
       - Singapore-Go
       - Singapore-Go-2
