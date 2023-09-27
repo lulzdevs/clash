@@ -80,11 +80,11 @@ proxies:
   #   sni: us04xmpp1.zoom.us
   #   skip-cert-verify: true
   - name: Indonesia-Go
-    server: id6.trojanvpn.de
+    server: id3.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: 35c3b98c-c3ce-4125-ba3b-375ac4f67e4c
+    password: 73401574-dcd5-479d-8c98-cbf92f6c3f9b
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -106,7 +106,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 6ad893f3-bc19-4515-a35f-3af63d583f2a
+    password: e37c4348-876b-46ba-9e36-30da1ca5ede1
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -124,22 +124,22 @@ proxies:
   #   grpc-opts:
   #     grpc-service-name: grpc
   - name: Singapore-Go
-    server: sg1.trojanvpn.de
+    server: sg2.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: 2381916a-e4a9-4063-95ef-941b6b420028
+    password: 6e5fe851-55a2-4a62-a8e9-ee2758122c2e
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
   - name: Singapore-Go-2
-    server: sg2.trojanvpn.de
+    server: sg5.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: 423770fc-dc27-428d-9651-53dd611fc27b
+    password: 64ba15ea-36b9-4c67-b834-b34728d7453a
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -150,7 +150,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: bf09e7f1-7fa2-4f1e-9f4e-c024a6c2fc2a
+    password: ca4dc11b-19a3-4737-a636-d81a27b79b6a
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
