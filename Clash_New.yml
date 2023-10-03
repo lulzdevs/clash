@@ -84,29 +84,29 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 73401574-dcd5-479d-8c98-cbf92f6c3f9b
+    password: c7235400-92dd-4a00-967a-651d376cd75f
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
-  # - name: Indonesia-Go-2
-  #   server: idt2.sshocean.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: ba7338cd-7970-4671-9cc1-5f12e91d40df
-  #   network: grpc
-  #   sni: us02web.zoom.us
-  #   skip-cert-verify: true
-  #   grpc-opts:
-  #     grpc-service-name: grpc
+  - name: Indonesia-Go-2
+    server: id2.trojanvpn.de
+    port: 443
+    udp: true
+    type: trojan
+    password: cc5fd255-c701-42cf-a51f-02c20891b8ad
+    network: grpc
+    sni: us02web.zoom.us
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpc
   - name: USA-Go
     server: us1.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: e37c4348-876b-46ba-9e36-30da1ca5ede1
+    password: 58fc441d-be80-494c-afa3-683ed7579949
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -128,7 +128,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 6e5fe851-55a2-4a62-a8e9-ee2758122c2e
+    password: c4448e17-b56c-4498-a21a-bc8f48c604f7
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -139,7 +139,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 64ba15ea-36b9-4c67-b834-b34728d7453a
+    password: f6cb63ce-81f9-4ab9-af07-e32c788fba2d
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -150,7 +150,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: ca4dc11b-19a3-4737-a636-d81a27b79b6a
+    password: 4f15d957-e95f-4452-87da-a785e8bc816c
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -170,7 +170,7 @@ proxy-groups:
       # - Singapore
       # - DK
       - Indonesia-Go
-      # - Indonesia-Go-2
+      - Indonesia-Go-2
       - USA-Go
       # - Australia-Go
       - Singapore-Go
