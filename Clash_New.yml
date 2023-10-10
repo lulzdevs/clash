@@ -80,33 +80,33 @@ proxies:
   #   sni: us04xmpp1.zoom.us
   #   skip-cert-verify: true
   - name: Indonesia-Go
-    server: id3.trojanvpn.de
+    server: id1.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: c7235400-92dd-4a00-967a-651d376cd75f
+    password: 3d2f4314-a75e-4cff-a23e-25aa2c4e2180
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
   - name: Indonesia-Go-2
-    server: id2.trojanvpn.de
+    server: id5.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: cc5fd255-c701-42cf-a51f-02c20891b8ad
+    password: 7d55212d-d3cd-45c6-9f78-b7fdb4032206
     network: grpc
     sni: us02web.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
   - name: USA-Go
-    server: us1.trojanvpn.de
+    server: uk2.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: 58fc441d-be80-494c-afa3-683ed7579949
+    password: d6458bbd-b5fe-4070-a536-e8c2413a420c
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -124,22 +124,22 @@ proxies:
   #   grpc-opts:
   #     grpc-service-name: grpc
   - name: Singapore-Go
-    server: sg2.trojanvpn.de
+    server: sg3.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: c4448e17-b56c-4498-a21a-bc8f48c604f7
+    password: 93d0abf8-b9d1-4bfb-aee4-a1869e3e4dee
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
   - name: Singapore-Go-2
-    server: sg5.trojanvpn.de
+    server: sg4.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: f6cb63ce-81f9-4ab9-af07-e32c788fba2d
+    password: 7a422ef0-a296-4f20-b9fd-394d3bffc8bb
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -150,7 +150,7 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: 4f15d957-e95f-4452-87da-a785e8bc816c
+    password: a4f26800-13a0-4a1e-8845-367e11e44d76
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
