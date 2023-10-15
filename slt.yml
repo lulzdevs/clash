@@ -39,63 +39,23 @@ experimental:
   interface-name: en0
 
 proxies:
-  # - name: NL
-  #   server: nlt-1.opensvr.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: opentunnel.net-lulzz996
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
-  # - name: CA
-  #   server: cat-1.opensvr.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: opentunnel.net-lulzz55
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
-  # - name: Indonesia
-  #   server: idt-1.opensvr.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: opentunnel.net-as56111
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
-  # - name: Singapore
-  #   server: sgt-1.opensvr.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: opentunnel.net-luz444
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
-  # - name: DK
-  #   server: det-1.opensvr.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: opentunnel.net-lulzdev666
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
   - name: Indonesia-Go
     server: id1.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: 3d2f4314-a75e-4cff-a23e-25aa2c4e2180
+    password: ef01e241-f977-4f87-943a-988962516e09
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
   - name: Indonesia-Go-2
-    server: id5.trojanvpn.de
+    server: id6.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: 7d55212d-d3cd-45c6-9f78-b7fdb4032206
+    password: 4d552d38-a3fe-4491-b6e1-fbc1d672446f
     network: grpc
     sni: us02web.zoom.us
     skip-cert-verify: true
@@ -112,34 +72,23 @@ proxies:
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
-  # - name: Australia-Go
-  #   server: aut1.sshocean.net
-  #   port: 443
-  #   udp: true
-  #   type: trojan
-  #   password: cff8a7e3-e44d-46d5-a0e6-7d9338ec5229
-  #   network: grpc
-  #   sni: us04xmpp1.zoom.us
-  #   skip-cert-verify: true
-  #   grpc-opts:
-  #     grpc-service-name: grpc
   - name: Singapore-Go
     server: sg3.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: 93d0abf8-b9d1-4bfb-aee4-a1869e3e4dee
+    password: b4c42607-410f-4fd6-876b-74fed6e22318
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
   - name: Singapore-Go-2
-    server: sg4.trojanvpn.de
+    server: sg5.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: 7a422ef0-a296-4f20-b9fd-394d3bffc8bb
+    password: b98d2eb7-7eaf-4a47-8c1d-8dec88e0224a
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -150,7 +99,29 @@ proxies:
     port: 443
     udp: true
     type: trojan
-    password: a4f26800-13a0-4a1e-8845-367e11e44d76
+    password: 5e0e7e2a-e274-4011-86c1-ee16185c9bf8
+    network: grpc
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: Singapore-Go-RaceVPN
+    server: sg-trojango.ipracevpn.com
+    port: 443
+    udp: true
+    type: trojan
+    password: 39443afb-c562-4bc6-84b9-84ac00512756
+    network: grpc
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: USA-Go-RaceVPN
+    server: us-trojango.ipracevpn.com
+    port: 443
+    udp: true
+    type: trojan
+    password: 25e6201f-3951-4ee1-b683-42c5a9767d76
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -164,18 +135,13 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      # - NL
-      # - CA
-      # - Indonesia
-      # - Singapore
-      # - DK
       - Indonesia-Go
       - Indonesia-Go-2
       - USA-Go
-      # - Australia-Go
       - Singapore-Go
       - Singapore-Go-2
       - Lithuania-Go
-
+      - Singapore-Go-RaceVPN
+      - USA-Go-RaceVPN
 rules:
   - MATCH,lulzDev-clash
