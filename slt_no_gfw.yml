@@ -1,0 +1,69 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+mode: global
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+bind-address: "*"
+ipv6: false
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7894
+  fallback-filter:
+    geoip: false
+    ipcidr:
+    - 240.0.0.0/4
+  nameserver:
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+    - tls://1.1.1.1:853
+    - tls://8.8.8.8:853
+  fallback:
+    - tcp://1.1.1.1
+    - tcp://8.8.8.8
+    - 1.1.1.1
+    - 8.8.8.8
+tun:
+  enable: true
+  stack: system 
+  macOS-auto-route: true
+  macOS-auto-detect-interface: true
+  dns-hijack:
+    - tcp://8.8.8.8:53
+experimental:
+  interface-name: en0
+
+proxies:
+
+  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: d015d9b9-62d8-4215-878d-e37d32f27b95, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 78843159-09de-40bb-870a-86902e7db271, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: 5a3a5685-ee0c-4c8f-8706-d8a544f5f44e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Vietnam-1, server: vn-full.privateip.net, port: 443, udp: true, type: trojan, password: 99047877-0a3c-4102-860b-dd1fedc740f1, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: e5e446b4-cf14-41f2-9d00-a59f60ba2331, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: e2376461-6e02-4cf5-ba65-2b9d77f22e71, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Turkey-1, server: tr-full.privateip.net, port: 443, udp: true, type: trojan, password: e906c96d-bcb8-4e1d-b37f-3fac097efe56, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: India-1, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: a608d73e-d814-4267-8761-8f9991ffcb69, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+
+proxy-groups:
+  - name: lulzDev-clash
+    type: load-balance
+    strategy: consistent-hashing
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    proxies:
+      - Singapore-1
+      - Singapore-2
+      - Indonesia-1
+      - Vietnam-1
+      - USA-1
+      - UnitedKingdom-1
+      - Turkey-1
+      - India-1
+
+
+rules:
+ - MATCH,lulzDev-clash
