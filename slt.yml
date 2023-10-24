@@ -40,22 +40,22 @@ experimental:
 
 proxies:
   - name: Indonesia-Go
-    server: id1.trojanvpn.de
+    server: idt5.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: ef01e241-f977-4f87-943a-988962516e09
+    password: de3f3520-be80-4c5e-9243-dc2ec802e6c7
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
   - name: Indonesia-Go-2
-    server: id6.trojanvpn.de
+    server: idt3.sshocean.net
     port: 443
     udp: true
     type: trojan
-    password: 4d552d38-a3fe-4491-b6e1-fbc1d672446f
+    password: 2222191b-3183-4e8e-8015-cf71c6792a0e
     network: grpc
     sni: us02web.zoom.us
     skip-cert-verify: true
