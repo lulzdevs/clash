@@ -39,9 +39,9 @@ experimental:
 
 proxies:
 
-  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: a50f6ced-7405-44c6-90d4-100384ff5c20, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 37dd3d44-5bd6-43a8-a0ee-02f18c9beb19, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: 059ccb17-a01a-4bf8-8dd4-a78bb2ffd3b3, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: ff76abab-5448-4a6b-8239-c7a60a9d1375, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: d3bfb054-f277-4561-8a91-768b2a43245c, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: 1a422eb6-0d50-4507-8439-e2e22709de34, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Vietnam-1, server: vn-full.privateip.net, port: 443, udp: true, type: trojan, password: 99047877-0a3c-4102-860b-dd1fedc740f1, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: USA-1, server: ca-full.privateip.net, port: 443, udp: true, type: trojan, password: 3cd40a31-292d-40f5-99cf-d2d43ac58944, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: e2376461-6e02-4cf5-ba65-2b9d77f22e71, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
