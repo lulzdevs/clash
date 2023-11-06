@@ -51,11 +51,11 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
   - name: Indonesia-Go-2
-    server: idt3.sshocean.net
+    server: id6.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: e92e194d-db3b-4914-87a4-6488a8d40fa3
+    password: 7712b72c-70fa-4412-ab2b-aae82453f3e2
     network: grpc
     sni: us02web.zoom.us
     skip-cert-verify: true
@@ -117,11 +117,11 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
   - name: USA-Go-RaceVPN
-    server: de-trojango.ipracevpn.com
-    port: 443
+    server: si4co.09vpn.com
+    port: 2087
     udp: true
     type: trojan
-    password: bf6a1245-87c0-46f7-a44f-14876477f00f
+    password: u978442998
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
