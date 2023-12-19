@@ -48,6 +48,7 @@ proxies:
   - {name: UnitedKingdom-1, server: uk3-full.privateip.net, port: 443, udp: true, type: trojan, password: b75bb960-59ba-47a2-8b7d-a1f4aeb6a061, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Turkey-1, server: ca-full.privateip.net, port: 443, udp: true, type: trojan, password: fcf65568-ad1b-4240-bff6-b9861e025c70, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: India-1, server: it-full.privateip.net, port: 443, udp: true, type: trojan, password: 6e24f22c-957f-422c-909f-f9fbdab899cf, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: TG-FREE-1, server: rxchatbot.duckdns.org, port: 25832, udp: true, type: trojan, password: WteyFngyfM, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
