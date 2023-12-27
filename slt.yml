@@ -62,22 +62,22 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
   - name: USA-Go
-    server: id3.trojanvpn.de
+    server: sg1.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: eb7eecf5-6398-4589-b133-7ebbaa84b857
+    password: c96b7112-3dba-45bb-bb30-1f1f26076a27
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
   - name: Singapore-Go
-    server: id5.trojanvpn.de
+    server: sg4.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: b4c42607-410f-4fd6-876b-74fed6e22318
+    password: dafd362d-fd09-4342-8ad8-c1843471f6dd
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
