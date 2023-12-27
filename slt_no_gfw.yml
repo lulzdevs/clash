@@ -47,8 +47,8 @@ proxies:
   - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: 9b57d792-fe3e-42f7-9561-0f0833ed6556, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: e92a4a7b-f04f-43ca-9398-ee0e12c1df02, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Turkey-1, server: ca-full.privateip.net, port: 443, udp: true, type: trojan, password: fcf65568-ad1b-4240-bff6-b9861e025c70, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: India-1, server: it-full.privateip.net, port: 443, udp: true, type: trojan, password: 6e24f22c-957f-422c-909f-f9fbdab899cf, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: TG-FREE-1, server: idt-1.optnl.com, port: 25832, udp: true, type: trojan, password: opentunnel.net-88khfbbb, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: India-1, server: adminrx.duckdns.org, port: 21504, udp: true, type: trojan, password: wXebEFj6cs, sni: static.whatsapp.net, skip-cert-verify: true}
+  - {name: TG-FREE-1, server: idt-1.optnl.com, port: 443, udp: true, type: trojan, password: opentunnel.net-88khfbbb, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
