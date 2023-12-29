@@ -43,12 +43,12 @@ proxies:
   - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 71a12f40-d987-4221-9f7d-6c39cd33f880, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-3, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: 07159d08-7301-454f-a246-c528151aedc1, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: 6092518c-0d65-4522-b706-57ebf4575849, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  # - {name: Vietnam-1, server: vn-full.privateip.net, port: 443, udp: true, type: trojan, password: 99047877-0a3c-4102-860b-dd1fedc740f1, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: 9b57d792-fe3e-42f7-9561-0f0833ed6556, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: e92a4a7b-f04f-43ca-9398-ee0e12c1df02, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Turkey-1, server: ca-full.privateip.net, port: 443, udp: true, type: trojan, password: fcf65568-ad1b-4240-bff6-b9861e025c70, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: India-1, server: adminrx.duckdns.org, port: 21504, udp: true, type: trojan, password: wXebEFj6cs, sni: static.whatsapp.net, skip-cert-verify: true}
-  - {name: TG-FREE-1, server: adminrx.duckdns.org, port: 21504, udp: true, type: trojan, password: wXebEFj6cs, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: USA-1-WA, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: 9b57d792-fe3e-42f7-9561-0f0833ed6556, sni: static.whatsapp.net, skip-cert-verify: true}
+  - {name: Singapore-2-WA, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 71a12f40-d987-4221-9f7d-6c39cd33f880, sni: static.whatsapp.net, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
@@ -61,12 +61,13 @@ proxy-groups:
       - Singapore-2
       - Singapore-3
       - Indonesia-1
-      # - Vietnam-1
       - USA-1
       - UnitedKingdom-1
       - Turkey-1
       - India-1
       - TG-FREE-1
+      - USA-1-WA
+      - Singapore-2-WA
 
 
 rules:
