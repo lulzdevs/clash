@@ -47,8 +47,8 @@ proxies:
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: e92a4a7b-f04f-43ca-9398-ee0e12c1df02, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Turkey-1, server: ca-full.privateip.net, port: 443, udp: true, type: trojan, password: fcf65568-ad1b-4240-bff6-b9861e025c70, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: India-1, server: adminrx.duckdns.org, port: 21504, udp: true, type: trojan, password: wXebEFj6cs, sni: static.whatsapp.net, skip-cert-verify: true}
-  - {name: USA-1-WA, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: 9b57d792-fe3e-42f7-9561-0f0833ed6556, sni: c.whatsapp.net, skip-cert-verify: true}
-  - {name: WA, server: adminrx.duckdns.org, port: 21504, udp: true, type: trojan, password: wXebEFj6cs, sni: static.whatsapp.net, skip-cert-verify: true}
+  - {name: USA-1-WA, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: 07159d08-7301-454f-a246-c528151aedc1, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: WA, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: bcbff2ff-df7c-427f-a477-b3ebe6d2fbc7, sni: static.whatsapp.net, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
