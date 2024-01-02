@@ -39,16 +39,17 @@ experimental:
 
 proxies:
 
-  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: bcbff2ff-df7c-427f-a477-b3ebe6d2fbc7, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 71a12f40-d987-4221-9f7d-6c39cd33f880, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Singapore-3, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: 07159d08-7301-454f-a246-c528151aedc1, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 05699368-52c7-4ae7-bef9-bd9099718f4e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: d02b4553-08b6-435f-944b-c472df4333cb, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-3, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: 545eb693-6e9d-4e17-becd-ac21747a63c1, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: 6092518c-0d65-4522-b706-57ebf4575849, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: 9b57d792-fe3e-42f7-9561-0f0833ed6556, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: e92a4a7b-f04f-43ca-9398-ee0e12c1df02, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Turkey-1, server: ca-full.privateip.net, port: 443, udp: true, type: trojan, password: fcf65568-ad1b-4240-bff6-b9861e025c70, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: India-1, server: adminrx.duckdns.org, port: 21504, udp: true, type: trojan, password: wXebEFj6cs, sni: static.whatsapp.net, skip-cert-verify: true}
-  - {name: USA-1-WA, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: 07159d08-7301-454f-a246-c528151aedc1, sni: c.whatsapp.net, skip-cert-verify: true}
-  - {name: WA, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: bcbff2ff-df7c-427f-a477-b3ebe6d2fbc7, sni: static.whatsapp.net, skip-cert-verify: true}
+  - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: d5e5e1fb-141f-44d0-ba54-d894140d8cec, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Whatsapp-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 05699368-52c7-4ae7-bef9-bd9099718f4e, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: Whatsapp-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: d02b4553-08b6-435f-944b-c472df4333cb, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: Whatsapp-3, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: 545eb693-6e9d-4e17-becd-ac21747a63c1, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: Whatsapp-4, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: d5e5e1fb-141f-44d0-ba54-d894140d8cec, sni: www.youtube.com, skip-cert-verify: true}
+  
 
 proxy-groups:
   - name: lulzDev-clash
@@ -63,10 +64,10 @@ proxy-groups:
       - Indonesia-1
       - USA-1
       - UnitedKingdom-1
-      - Turkey-1
-      - India-1
-      - USA-1-WA
-      - WA
+      - Whatsapp-1
+      - Whatsapp-2
+      - Whatsapp-3
+      - Whatsapp-4
 
 
 rules:
