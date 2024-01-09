@@ -39,16 +39,16 @@ experimental:
 
 proxies:
 
-  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 05699368-52c7-4ae7-bef9-bd9099718f4e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: bbd6a38d-9ece-4f05-a416-22df5f1c5365, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: d02b4553-08b6-435f-944b-c472df4333cb, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-3, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: 545eb693-6e9d-4e17-becd-ac21747a63c1, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: 6092518c-0d65-4522-b706-57ebf4575849, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: 231f43f3-92bc-4b1d-8ba0-31f3c17ff84e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: 9b57d792-fe3e-42f7-9561-0f0833ed6556, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: d5e5e1fb-141f-44d0-ba54-d894140d8cec, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Whatsapp-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 05699368-52c7-4ae7-bef9-bd9099718f4e, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: Whatsapp-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: bbd6a38d-9ece-4f05-a416-22df5f1c5365, sni: c.whatsapp.net, skip-cert-verify: true}
   - {name: Whatsapp-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: d02b4553-08b6-435f-944b-c472df4333cb, sni: c.whatsapp.net, skip-cert-verify: true}
   - {name: Whatsapp-3, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: 545eb693-6e9d-4e17-becd-ac21747a63c1, sni: c.whatsapp.net, skip-cert-verify: true}
-  - {name: Whatsapp-4, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: d5e5e1fb-141f-44d0-ba54-d894140d8cec, sni: www.youtube.com, skip-cert-verify: true}
+  - {name: Whatsapp-4, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 0958063a-92e4-4dc8-b5f0-77ff747733d4, sni: c.whatsapp.net, skip-cert-verify: true}
   
 
 proxy-groups:
