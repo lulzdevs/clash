@@ -45,10 +45,10 @@ proxies:
   - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: 22ebcbb9-227f-42ed-ae30-eecb5950d5c3, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: 9b57d792-fe3e-42f7-9561-0f0833ed6556, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: ad6c78ad-5ce6-4301-8d85-e9a65910ba99, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SSH-1, server: sg4.trojanvpn.de, port: 443, udp: true, type: trojan, password: bbd6a38d-9ece-4f05-a416-22df5f1c5365, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SSH-2, server: sg1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 517545d3-d814-4974-8e40-42f0284fa760, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Whatsapp-3, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: 545eb693-6e9d-4e17-becd-ac21747a63c1, sni: c.whatsapp.net, skip-cert-verify: true}
-  - {name: Whatsapp-4, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 0958063a-92e4-4dc8-b5f0-77ff747733d4, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: SSH-1, server: sgt-1.optnl.com, port: 443, udp: true, type: trojan, password: opentunnel.net-ghghgh99, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: SSH-2, server: ukt-2.optnl.com, port: 443, udp: true, type: trojan, password: opentunnel.net-ghghgh99, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: SSH-3, server: ie1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 54fd3234-851e-42df-9918-747df8a0e109, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: SSH-4, server: is1.trojanvpn.de, port: 443, udp: true, type: trojan, password: b324f44f-cc67-436f-bfc9-653c7f4a11c7, sni: c.whatsapp.net, skip-cert-verify: true}
   
 
 proxy-groups:
@@ -66,8 +66,8 @@ proxy-groups:
       - UnitedKingdom-1
       - SSH-1
       - SSH-2
-      - Whatsapp-3
-      - Whatsapp-4
+      - SSH-3
+      - SSH-4
 
 
 rules:
