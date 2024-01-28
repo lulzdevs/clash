@@ -46,9 +46,9 @@ proxies:
   - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: 9b57d792-fe3e-42f7-9561-0f0833ed6556, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: ad6c78ad-5ce6-4301-8d85-e9a65910ba99, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SSH-1, server: sgt-1.optnl.com, port: 443, udp: true, type: trojan, password: opentunnel.net-ghghgh99, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SSH-2, server: ukt-2.optnl.com, port: 443, udp: true, type: trojan, password: opentunnel.net-ghghgh99, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SSH-3, server: ie1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 54fd3234-851e-42df-9918-747df8a0e109, sni: c.whatsapp.net, skip-cert-verify: true}
-  - {name: SSH-4, server: is1.trojanvpn.de, port: 443, udp: true, type: trojan, password: b324f44f-cc67-436f-bfc9-653c7f4a11c7, sni: c.whatsapp.net, skip-cert-verify: true}
+  - {name: SSH-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: b6961fb7-2ada-4e48-af71-c47fe3513314, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: SSH-3, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: 7c7f8739-09fc-49da-a97f-1d2e92314cf6, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: SSH-4, server: hk-full.privateip.net, port: 443, udp: true, type: trojan, password: 94ddbcbf-f976-4fa4-b563-b913e7d5766c, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   
 
 proxy-groups:
