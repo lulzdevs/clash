@@ -39,12 +39,12 @@ experimental:
 
 proxies:
 
-  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 8f7c451c-859d-4f08-8da2-efd3e20c013c, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 3d64b68f-5e1d-4771-a810-1d1688673718, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 1bede996-c475-440b-a492-9cd57cbd3939, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-3, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: 0ffc85b3-7f4c-4380-a816-cc663070cfdc, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: fd807087-ffdd-4782-a4d1-b2e3d8c82eec, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: 9b57d792-fe3e-42f7-9561-0f0833ed6556, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: ad6c78ad-5ce6-4301-8d85-e9a65910ba99, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: cac8eef8-9b07-48df-a351-0ffd8b1e6d96, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 81dfb458-9a26-486a-a0da-914c380459c6, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SSH-1, server: sgt-1.optnl.com, port: 443, udp: true, type: trojan, password: opentunnel.net-ghghgh99, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SSH-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: b6961fb7-2ada-4e48-af71-c47fe3513314, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SSH-3, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: 7c7f8739-09fc-49da-a97f-1d2e92314cf6, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
