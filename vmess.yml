@@ -109,7 +109,7 @@ proxies:
         Host: id1.xv2ray.net
     udp: true
 proxy-groups:
-  - name: SSHOCEAN
+  - name: LULZVMESS
     type: select
     proxies:
       - ID1
@@ -119,4 +119,4 @@ proxy-groups:
       - RACESG2
       - DIRECT
 rules:
-  - MATCH,SSHOCEAN
+  - MATCH,LULZVMESS
