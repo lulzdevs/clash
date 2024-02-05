@@ -112,7 +112,11 @@ proxy-groups:
   - name: SSHOCEAN
     type: select
     proxies:
-      - sshocean-luzz9696
+      - ID1
+      - ID2
+      - ID3
+      - SG1
+      - RACESG2
       - DIRECT
 rules:
   - MATCH,SSHOCEAN
