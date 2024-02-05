@@ -45,11 +45,10 @@ proxies:
   - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: 6ecfd085-b30d-45ae-89b0-f68b3fed965b, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: cac8eef8-9b07-48df-a351-0ffd8b1e6d96, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 81dfb458-9a26-486a-a0da-914c380459c6, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SSH-1, server: sgt-1.optnl.com, port: 443, udp: true, type: trojan, password: opentunnel.net-ghghgh99, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: SSH-1, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: ebecf1d2-6db1-4caa-9fa4-f4504b0328e5, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SSH-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: b1130ca7-7019-4081-a3a4-a458cde4046f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SSH-3, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: 7c7f8739-09fc-49da-a97f-1d2e92314cf6, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SSH-4, server: hk-full.privateip.net, port: 443, udp: true, type: trojan, password: 94ddbcbf-f976-4fa4-b563-b913e7d5766c, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  
+  - {name: SSH-3, server: id1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 5b9c8699-ac7d-4bb2-91b2-b4f60ac57902, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: SSH-4, server: fr2-full.privateip.net, port: 443, udp: true, type: trojan, password: b1d4c873-47bd-4020-a7a3-e8d89486bcee, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
