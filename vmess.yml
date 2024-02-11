@@ -29,10 +29,10 @@ dns:
     - 8.8.4.4
 proxies:
   - name: ID1
-    server: id1.xv2ray.net
+    server: id4.xv2ray.net
     port: 443
     type: vmess
-    uuid: 7092a4b7-5559-4351-a8b6-edad98bd6951
+    uuid: 9808c405-7225-45fa-bb54-19bceea5102f
     alterId: 0
     cipher: auto
     tls: true
@@ -42,13 +42,13 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: id1.xv2ray.net
+        Host: id4.xv2ray.net
     udp: true
   - name: ID2
     server: id2.xv2ray.net
     port: 443
     type: vmess
-    uuid: 30fcf7ce-6ebb-45b9-9903-f444cf911f87
+    uuid: ad0ab3e3-52ad-4f82-a1f9-ad3ec35c5dbe
     alterId: 0
     cipher: auto
     tls: true
@@ -64,7 +64,7 @@ proxies:
     server: id4.xv2ray.net
     port: 443
     type: vmess
-    uuid: b1eb276b-418b-4350-b6af-d073e25b9d2c
+    uuid: 8568f8cc-f1fc-4f80-bb3e-7c6d7f901bac
     alterId: 0
     cipher: auto
     tls: true
@@ -77,10 +77,10 @@ proxies:
         Host: id4.xv2ray.net
     udp: true
   - name: SG1
-    server: sg1.xv2ray.net
+    server: sg4.xv2ray.net
     port: 443
     type: vmess
-    uuid: 23d063f0-9d4d-4cc5-8fab-5403623c8db2
+    uuid: a0f5dbfc-2ee1-41ce-a098-6bc8cb83886f
     alterId: 0
     cipher: auto
     tls: true
@@ -90,13 +90,13 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: sg1.xv2ray.net
+        Host: sg4.xv2ray.net
     udp: true
   - name: RACESG2
-    server: sg2-full.privateip.net
+    server: sg2.xv2ray.net
     port: 443
     type: vmess
-    uuid: 840777a6-5c57-4c95-b000-65cb83918043
+    uuid: 103031bf-3879-4088-8940-39fe869b0085
     alterId: 0
     cipher: auto
     tls: true
@@ -104,9 +104,9 @@ proxies:
     servername: us04xmpp1.zoom.us
     network: ws
     ws-opts:
-      path: /RACEVPN
+      path: /vmess
       headers:
-        Host: id1.xv2ray.net
+        Host: sg2.xv2ray.net
     udp: true
 proxy-groups:
   - name: LULZVMESS
