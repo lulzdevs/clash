@@ -41,10 +41,10 @@ proxies:
 
   - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 1ada3575-1a15-4e9f-a611-3a5b07097f5e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: e881eeef-b208-49a8-91ba-e6ff2a1170a0, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Singapore-3, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: f15435f4-04b5-466a-87ec-115b5506893c, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-3, server: sg3-full.privateip.net, port: 443, udp: true, type: trojan, password: b3965d2d-3b82-45cc-927b-1336aca3f3fe, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: f55a2908-1e1d-4d22-bd39-3f845c5762d6, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: cac8eef8-9b07-48df-a351-0ffd8b1e6d96, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 81dfb458-9a26-486a-a0da-914c380459c6, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: aa3fd3b3-7c35-4cb4-b27c-f616b3f8a323, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SSH-1, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: ebecf1d2-6db1-4caa-9fa4-f4504b0328e5, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SSH-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: b1130ca7-7019-4081-a3a4-a458cde4046f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SSH-3, server: id1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 5b9c8699-ac7d-4bb2-91b2-b4f60ac57902, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
