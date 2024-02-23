@@ -29,10 +29,10 @@ dns:
     - 8.8.4.4
 proxies:
   - name: ID1
-    server: id4.xv2ray.net
+    server: uk2.xv2ray.net
     port: 443
     type: vmess
-    uuid: 9808c405-7225-45fa-bb54-19bceea5102f
+    uuid: 0ce65fcb-4681-4ee0-9ef0-6c51dd044ffe
     alterId: 0
     cipher: auto
     tls: true
@@ -42,13 +42,13 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: id4.xv2ray.net
+        Host: uk2.xv2ray.net
     udp: true
   - name: ID2
-    server: id2.xv2ray.net
+    server: uk1.xv2ray.net
     port: 443
     type: vmess
-    uuid: ad0ab3e3-52ad-4f82-a1f9-ad3ec35c5dbe
+    uuid: 37474709-d3e8-4b23-b2a2-f46d20b296cb
     alterId: 0
     cipher: auto
     tls: true
@@ -58,13 +58,13 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: id2.xv2ray.net
+        Host: uk1.xv2ray.net
     udp: true
   - name: ID3
-    server: id4.xv2ray.net
+    server: lv2.xv2ray.net
     port: 443
     type: vmess
-    uuid: 8568f8cc-f1fc-4f80-bb3e-7c6d7f901bac
+    uuid: a5064602-7de3-44eb-8ec9-dd05d6e03715
     alterId: 0
     cipher: auto
     tls: true
@@ -74,39 +74,23 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: id4.xv2ray.net
+        Host: lv2.xv2ray.net
     udp: true
   - name: SG1
-    server: sg4.xv2ray.net
+    server: lv1.xv2ray.net
     port: 443
     type: vmess
-    uuid: a0f5dbfc-2ee1-41ce-a098-6bc8cb83886f
+    uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8f
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us04xmpp1.zoom.us
+    servername: lv1.xv2ray.net
     network: ws
     ws-opts:
       path: /vmess
       headers:
         Host: sg4.xv2ray.net
-    udp: true
-  - name: RACESG2
-    server: sg2.xv2ray.net
-    port: 443
-    type: vmess
-    uuid: 103031bf-3879-4088-8940-39fe869b0085
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us04xmpp1.zoom.us
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg2.xv2ray.net
     udp: true
 proxy-groups:
   - name: LULZVMESS
@@ -116,7 +100,5 @@ proxy-groups:
       - ID2
       - ID3
       - SG1
-      - RACESG2
-      - DIRECT
 rules:
   - MATCH,LULZVMESS
