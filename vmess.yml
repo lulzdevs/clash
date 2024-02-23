@@ -80,7 +80,7 @@ proxies:
     server: lv1.xv2ray.net
     port: 443
     type: vmess
-    uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8f
+    uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
     alterId: 0
     cipher: auto
     tls: true
@@ -90,7 +90,7 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: sg4.xv2ray.net
+        Host: lv1.xv2ray.net
     udp: true
 proxy-groups:
   - name: LULZVMESS
@@ -100,6 +100,5 @@ proxy-groups:
       - ID2
       - ID3
       - SG1
-      - DIRECT
 rules:
   - MATCH,LULZVMESS
