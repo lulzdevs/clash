@@ -100,5 +100,6 @@ proxy-groups:
       - ID2
       - ID3
       - SG1
+      - DIRECT
 rules:
   - MATCH,LULZVMESS
