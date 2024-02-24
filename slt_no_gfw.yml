@@ -47,10 +47,6 @@ proxies:
   - {name: AUSTRALIA, server: au-full.privateip.net, port: 443, udp: true, type: trojan, password: 4f3e6fcf-0a5f-47d3-80bf-2655a70d15d5, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: NETHERLANDS, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: 9a29c7b5-b2d0-4928-b079-2c4d675228ea, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: aa3fd3b3-7c35-4cb4-b27c-f616b3f8a323, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SSH-1, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: ebecf1d2-6db1-4caa-9fa4-f4504b0328e5, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SSH-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: b1130ca7-7019-4081-a3a4-a458cde4046f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SSH-3, server: id1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 5b9c8699-ac7d-4bb2-91b2-b4f60ac57902, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SSH-4, server: se2-full.privateip.net, port: 443, udp: true, type: trojan, password: ce0f7bd3-2c78-4a10-81a8-8d64831f9697, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
@@ -67,10 +63,6 @@ proxy-groups:
       - AUSTRALIA
       - NETHERLANDS
       - UnitedKingdom-1
-      - SSH-1
-      - SSH-2
-      - SSH-3
-      - SSH-4
 
 
 rules:
