@@ -66,6 +66,7 @@ proxy-groups:
       - NETHERLANDS
       - UnitedKingdom-1
       - UnitedKingdom-2
+      - India-2
 
 
 rules:
