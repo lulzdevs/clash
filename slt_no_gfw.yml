@@ -48,6 +48,7 @@ proxies:
   - {name: NETHERLANDS, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: 332623f6-3cba-4574-b8de-803f7b3968ee, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 48ac328a-d9e7-481c-b749-a0d0d66a749c, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-2, server: uk2-full.privateip.net, port: 443, udp: true, type: trojan, password: 53d30e36-c03b-474a-b8a9-b4c7b8ab4980, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: India-2, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: 867f9588-c514-49c5-bcd8-f6976219aeaa, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
