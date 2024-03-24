@@ -32,7 +32,7 @@ proxies:
     server: uk2.xv2ray.net
     port: 443
     type: vmess
-    uuid: 0ce65fcb-4681-4ee0-9ef0-6c51dd044ffe
+    uuid: fbf864f2-5cf9-4a4b-8834-70415391b768
     alterId: 0
     cipher: auto
     tls: true
@@ -48,7 +48,7 @@ proxies:
     server: uk1.xv2ray.net
     port: 443
     type: vmess
-    uuid: 37474709-d3e8-4b23-b2a2-f46d20b296cb
+    uuid: 575853b1-0c18-4184-88fa-6b3fcfac999c
     alterId: 0
     cipher: auto
     tls: true
@@ -61,10 +61,10 @@ proxies:
         Host: uk1.xv2ray.net
     udp: true
   - name: ID3
-    server: lv2.xv2ray.net
+    server: hk1.xv2ray.net
     port: 443
     type: vmess
-    uuid: a5064602-7de3-44eb-8ec9-dd05d6e03715
+    uuid: 64c76214-23db-483c-9a18-9dbdb4c11ce8
     alterId: 0
     cipher: auto
     tls: true
@@ -77,10 +77,10 @@ proxies:
         Host: lv2.xv2ray.net
     udp: true
   - name: SG1
-    server: lv1.xv2ray.net
+    server: ua1.xv2ray.net
     port: 443
     type: vmess
-    uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+    uuid: 02213c7d-0c98-4c70-b01a-cf51662383f2
     alterId: 0
     cipher: auto
     tls: true
