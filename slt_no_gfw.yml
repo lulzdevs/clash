@@ -48,7 +48,9 @@ proxies:
   - {name: NETHERLANDS, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: 332623f6-3cba-4574-b8de-803f7b3968ee, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 57afed5a-5a70-4a8b-bb40-4d81c26e65dd, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-2, server: uk2-full.privateip.net, port: 443, udp: true, type: trojan, password: 2fd3ac85-0bbc-4d12-aa62-c0c0dc469dbf, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: India-2, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: 867f9588-c514-49c5-bcd8-f6976219aeaa, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: HK1, server: hk1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 41494ed2-21fd-48bd-8744-459543d5f5b3, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: AT1, server: at1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 07ff423f-20ab-4ada-a443-e49b70fff094, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: TR1, server: tr1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 73833d65-0922-4cc0-a656-afe2924aae57, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
@@ -66,7 +68,9 @@ proxy-groups:
       - NETHERLANDS
       - UnitedKingdom-1
       - UnitedKingdom-2
-      - India-2
+      - HK1
+      - AT1
+      - TR1
 
 
 rules:
