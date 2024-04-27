@@ -45,12 +45,9 @@ proxies:
   - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: cc638799-b3c9-4836-b15f-59ed3d0a9b02, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: USA-1, server: us-full.privateip.net, port: 443, udp: true, type: trojan, password: 2da099cf-ee67-4bfa-b41f-f06ed54b2e5f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: AUSTRALIA, server: au-full.privateip.net, port: 443, udp: true, type: trojan, password: 4f3e6fcf-0a5f-47d3-80bf-2655a70d15d5, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: NETHERLANDS, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: 332623f6-3cba-4574-b8de-803f7b3968ee, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: NETHERLANDS, server: ua-full.privateip.net, port: 443, udp: true, type: trojan, password: 159c73fa-a1f9-409e-8375-73c58917425d, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: d4f1d2f8-f6ce-49cb-920e-48e095319152, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-2, server: uk2-full.privateip.net, port: 443, udp: true, type: trojan, password: cc278b84-93e6-4b17-bbb7-6d0c04198672, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: HK1, server: hk1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 41494ed2-21fd-48bd-8744-459543d5f5b3, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: AT1, server: at1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 07ff423f-20ab-4ada-a443-e49b70fff094, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: TR1, server: tr1.trojanvpn.de, port: 443, udp: true, type: trojan, password: 73833d65-0922-4cc0-a656-afe2924aae57, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
@@ -68,10 +65,6 @@ proxy-groups:
       - NETHERLANDS
       - UnitedKingdom-1
       - UnitedKingdom-2
-      - HK1
-      - AT1
-      - TR1
-
-
+      
 rules:
  - MATCH,lulzDev-clash
