@@ -95,33 +95,33 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
   - name: Lithuania-Go
-    server: lt1.trojanvpn.de
+    server: nl1.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: f2416dad-e8e9-43ab-a49c-bb44b0c74678
+    password: 3671ed89-b95e-4304-b32b-3c7811f72ada
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
-  - name: Singapore-Go-RaceVPN
-    server: sg-trojango.ipracevpn.com
+  - name: UK-A-Go
+    server: uk2.trojanvpn.de
     port: 443
     udp: true
     type: trojan
-    password: 39443afb-c562-4bc6-84b9-84ac00512756
+    password: 42352753-1d71-45ac-84fa-52439dc3b038
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: grpc
-  - name: USA-Go-RaceVPN
-    server: si4co.09vpn.com
+  - name: UK-Go
+    server: uk1.trojanvpn.de
     port: 2087
     udp: true
     type: trojan
-    password: u978442998
+    password: 3deaff6a-78cb-4804-9004-778be3f2d9fd
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -141,7 +141,7 @@ proxy-groups:
       - Singapore-Go
       - Singapore-Go-2
       - Lithuania-Go
-      - Singapore-Go-RaceVPN
-      - USA-Go-RaceVPN
+      - UK-A-Go
+      - UK-Go
 rules:
   - MATCH,lulzDev-clash
