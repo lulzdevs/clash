@@ -45,11 +45,11 @@ proxies:
   # - {name: Indonesia-1, server: id-full.privateip.net, port: 443, udp: true, type: trojan, password: f3082a98-5936-4d31-a6f8-c9da3b9cf457, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: USA-1, server: hk-full.privateip.net, port: 443, udp: true, type: trojan, password: 01278779-3f58-4477-8ae7-7b82033a5d2e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: AUSTRALIA, server: au-full.privateip.net, port: 443, udp: true, type: trojan, password: a7cf1378-0ccf-43c2-8f26-56f5c8e540cf, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: NETHERLANDS-1, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: 65ea70d2-70b2-4408-900d-a75305e3056f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: NETHERLANDS-1, server: nl1.safecdn.site, port: 443, udp: true, type: trojan, password: 292297a1-7bc1-4c2c-b497-09e29f4fe125, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: NETHERLANDS-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: b4a68b6a-b83b-4271-98e1-4d9e0d27a78a, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UnitedKingdom-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 60790a1a-2d0e-42be-9eb2-ba8ffe64814c, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: UnitedKingdom-2, server: uk2-full.privateip.net, port: 443, udp: true, type: trojan, password: 9cc7d3c1-d469-4cc6-857b-f323672c491f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: India-2, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: d7eb5468-8f66-4d90-91eb-4eb9f938709a, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: UnitedKingdom-2, server: uk2.safecdn.site, port: 443, udp: true, type: trojan, password: 916887ea-9b19-4f5c-88d7-b2f3234fee45, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: India-2, server: se1.safecdn.site, port: 443, udp: true, type: trojan, password: 6b394e31-9adc-453c-8423-a627e6879bfb, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
