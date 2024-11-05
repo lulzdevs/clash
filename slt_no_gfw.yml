@@ -45,10 +45,10 @@ proxies:
   - {name: GERMAN, server: de2-full.privateip.net, port: 443, udp: true, type: trojan, password: 145d7655-29ea-4526-b2f1-17d4d2bba000, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SPAIN, server: es-full.privateip.net, port: 443, udp: true, type: trojan, password: aee322b8-5e59-447b-a51b-9dd7b64157e2, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: FRANCE, server: fr2-full.privateip.net, port: 443, udp: true, type: trojan, password: b94495af-0be5-4f93-bdf5-4be7c1694011, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: NETHERLANDS-1, server: nl1.safecdn.site, port: 443, udp: true, type: trojan, password: 292297a1-7bc1-4c2c-b497-09e29f4fe125, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: NETHERLANDS-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: 6017dc14-d582-4d30-b589-ba392ef95a99, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: UK-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: ade31e27-8f28-4581-8b0c-3ad3b02ed9f8, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: UK-2, server: uk2.safecdn.site, port: 443, udp: true, type: trojan, password: 05256eae-5d76-45bf-9d82-f83fd985d74e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: NETHERLANDS-1, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: d5c488c2-4b6d-4520-9c4d-7adbc7f03266, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: NETHERLANDS-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: caa50a3d-2497-479d-9fe7-d8ef86945215, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: UK-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 40f42155-079e-465b-ac72-a0c8d9e8577c, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: UK-2, server: uk2-full.privateip.net, port: 443, udp: true, type: trojan, password: 6cf02f51-068c-4b91-a57a-d33fac1d157f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: INDIA-2, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: 9b13c2e9-da19-4317-8709-63c8ee5de9a8, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
