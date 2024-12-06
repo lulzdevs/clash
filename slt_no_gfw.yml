@@ -60,7 +60,7 @@ proxy-groups:
     proxies:
       - Singapore-1
       - Singapore-2
-      # - Singapore-3
+      - SWEDEN-1
       - GERMAN
       - SPAIN
       - AUSTRALIA
