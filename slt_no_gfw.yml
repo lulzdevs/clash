@@ -39,9 +39,9 @@ experimental:
 
 proxies:
 
-  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 25bda4f5-dc17-44a0-b735-f8b4b28b680a, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 4a9ac90c-08a0-4d1d-bcf7-ab4801515aae, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SWEDEN-1, server: se-full.privateip.net, port: 443, udp: true, type: trojan, password: 284a5799-6976-4570-b91c-6443fddd0541, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 0c7db76a-d9e3-4756-bdf2-7db5c31d036b, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 9ae4f784-c3ff-44bf-b9e1-d32121e109a3, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: SWEDEN-1, server: se-full.privateip.net, port: 443, udp: true, type: trojan, password: 86b1abea-b45a-43b4-b53a-21286bbb2f50, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: GERMAN, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: e97f36fd-3d58-4ef0-b306-b4ec72d7eed4, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SPAIN, server: es-full.privateip.net, port: 443, udp: true, type: trojan, password: aee322b8-5e59-447b-a51b-9dd7b64157e2, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: AUSTRALIA, server: au-full.privateip.net, port: 443, udp: true, type: trojan, password: 3e524d99-7e9e-45dd-be78-6b61ea6a2db5, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
