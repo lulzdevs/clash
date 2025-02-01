@@ -117,11 +117,11 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
   - name: UK-Go
-    server: uk1.trojanvpn.de
+    server: uk1.safecdn.site
     port: 2087
     udp: true
     type: trojan
-    password: 3deaff6a-78cb-4804-9004-778be3f2d9fd
+    password: d4432240-e01d-4947-be22-83cd99521983
     network: grpc
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
