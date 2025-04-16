@@ -62,7 +62,7 @@ proxy-groups:
       - FRANCE
       - Singapore-1
       - Singapore-2
-      # - SPAIN
+      - SPAIN
       # - AUSTRALIA
       # - NETHERLANDS-1
       # - NETHERLANDS-2
