@@ -43,7 +43,7 @@ proxies:
   - {name: FRANCE, server: fr-full.privateip.net, port: 443, udp: true, type: trojan, password: fb86739f-a701-4ded-ac68-de6761d33d7d, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 6b6e798e-445c-418f-8c7d-afbbc54c646a, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: a462eeee-cf56-4c84-a768-1b7dc6f4802e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SPAIN, server: es-full.privateip.net, port: 443, udp: true, type: trojan, password: 057b415a-39de-4b04-8159-249afea1d2f1, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: SPAIN, server: jp-full.privateip.net, port: 443, udp: true, type: trojan, password: 03545b52-2e9b-4464-be73-0a3ba141f791, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: AUSTRALIA, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: 65fdb488-873b-4325-8db3-e535e4257c9e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: NETHERLANDS-1, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: f42c9030-ad2d-4b71-afdd-73ac46a0f933, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: NETHERLANDS-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: 7ab5faf0-1a7a-4e16-a366-6ca236f60a55, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
