@@ -39,17 +39,17 @@ experimental:
 
 proxies:
 
-  - {name: SWEDEN, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: f42c9030-ad2d-4b71-afdd-73ac46a0f933, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: FRANCE, server: fr-full.privateip.net, port: 443, udp: true, type: trojan, password: fb86739f-a701-4ded-ac68-de6761d33d7d, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 6b6e798e-445c-418f-8c7d-afbbc54c646a, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: SWEDEN, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: f42c9030-ad2d-4b71-afdd-73ac46a0f933, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: FRANCE, server: fr-full.privateip.net, port: 443, udp: true, type: trojan, password: fb86739f-a701-4ded-ac68-de6761d33d7d, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 21246bde-fab7-424c-9723-d311acce3f34, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: a462eeee-cf56-4c84-a768-1b7dc6f4802e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SPAIN, server: jp-full.privateip.net, port: 443, udp: true, type: trojan, password: 03545b52-2e9b-4464-be73-0a3ba141f791, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: AUSTRALIA, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: 65fdb488-873b-4325-8db3-e535e4257c9e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: NETHERLANDS-1, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: f42c9030-ad2d-4b71-afdd-73ac46a0f933, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: NETHERLANDS-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: 7ab5faf0-1a7a-4e16-a366-6ca236f60a55, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  # - {name: UK-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: c4d501b8-6df6-415e-a389-3467ab467831, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: UK-2, server: uk2-full.privateip.net, port: 443, udp: true, type: trojan, password: d60f9beb-bbe4-4e11-9e5c-d372ecd396b6, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: IT-1, server: it-full.privateip.net, port: 443, udp: true, type: trojan, password: ec66ab45-6423-47e6-b052-386b0cfecd07, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: AUSTRALIA, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: e9c2461d-8bd8-4ad6-b29a-7428a343e8a7, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: NETHERLANDS-1, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: f42c9030-ad2d-4b71-afdd-73ac46a0f933, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: NETHERLANDS-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: 7ab5faf0-1a7a-4e16-a366-6ca236f60a55, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: UK-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: f1ee4342-64a4-45af-86db-a7c6a666d953, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: UK-2, server: uk2-full.privateip.net, port: 443, udp: true, type: trojan, password: d60f9beb-bbe4-4e11-9e5c-d372ecd396b6, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: IT-1, server: it-full.privateip.net, port: 443, udp: true, type: trojan, password: ec66ab45-6423-47e6-b052-386b0cfecd07, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
@@ -58,17 +58,17 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      - SWEDEN
-      - FRANCE
+      # - SWEDEN
+      # - FRANCE
       - Singapore-1
       - Singapore-2
       # - SPAIN
       - AUSTRALIA
-      - NETHERLANDS-1
-      - NETHERLANDS-2
-      # - UK-1
-      - UK-2
-      - IT-1
+      # - NETHERLANDS-1
+      # - NETHERLANDS-2
+      - UK-1
+      # - UK-2
+      # - IT-1
       
 rules:
  - MATCH,lulzDev-clash
