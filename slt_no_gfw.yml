@@ -39,8 +39,9 @@ experimental:
 
 proxies:
 
-  # - {name: SWEDEN, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: f42c9030-ad2d-4b71-afdd-73ac46a0f933, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  # - {name: FRANCE, server: fr-full.privateip.net, port: 443, udp: true, type: trojan, password: fb86739f-a701-4ded-ac68-de6761d33d7d, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: SWEDEN, server: se-full.privateip.net, port: 443, udp: true, type: trojan, password: 33a07a1a-3ab0-4750-8672-d51c9ac78339, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: GERMAN, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: 94e612d7-a54d-4e43-bf81-1acf111756a7, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: FRANCE, server: fr-full.privateip.net, port: 443, udp: true, type: trojan, password: 5141cbf0-3e65-4275-bfb8-3c8d755b4a13, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 21246bde-fab7-424c-9723-d311acce3f34, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: a462eeee-cf56-4c84-a768-1b7dc6f4802e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: SPAIN, server: jp-full.privateip.net, port: 443, udp: true, type: trojan, password: 03545b52-2e9b-4464-be73-0a3ba141f791, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
@@ -58,8 +59,9 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      # - SWEDEN
-      # - FRANCE
+      - SWEDEN
+      - GERMAN
+      - FRANCE
       - Singapore-1
       - Singapore-2
       # - SPAIN
