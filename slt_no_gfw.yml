@@ -39,16 +39,16 @@ experimental:
 
 proxies:
 
-  - {name: SWEDEN, server: se-full.privateip.net, port: 443, udp: true, type: trojan, password: 33a07a1a-3ab0-4750-8672-d51c9ac78339, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: GERMAN, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: 94e612d7-a54d-4e43-bf81-1acf111756a7, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: FRANCE, server: fr-full.privateip.net, port: 443, udp: true, type: trojan, password: 5141cbf0-3e65-4275-bfb8-3c8d755b4a13, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 21246bde-fab7-424c-9723-d311acce3f34, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: a462eeee-cf56-4c84-a768-1b7dc6f4802e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: SPAIN, server: jp-full.privateip.net, port: 443, udp: true, type: trojan, password: 03545b52-2e9b-4464-be73-0a3ba141f791, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: AUSTRALIA, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: e9c2461d-8bd8-4ad6-b29a-7428a343e8a7, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  # - {name: NETHERLANDS-1, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: f42c9030-ad2d-4b71-afdd-73ac46a0f933, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: SWEDEN, server: se-full.privateip.net, port: 443, udp: true, type: trojan, password: 33a07a1a-3ab0-4750-8672-d51c9ac78339, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: GERMAN, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: 94e612d7-a54d-4e43-bf81-1acf111756a7, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: FRANCE, server: fr-full.privateip.net, port: 443, udp: true, type: trojan, password: 5141cbf0-3e65-4275-bfb8-3c8d755b4a13, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 21246bde-fab7-424c-9723-d311acce3f34, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: fc687d9e-d089-4479-8504-c2b877a11728, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: SPAIN, server: jp-full.privateip.net, port: 443, udp: true, type: trojan, password: 03545b52-2e9b-4464-be73-0a3ba141f791, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  # - {name: AUSTRALIA, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: e9c2461d-8bd8-4ad6-b29a-7428a343e8a7, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: NETHERLANDS-1, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: f328803f-3eb9-4d19-8293-6ebbefab0840, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: NETHERLANDS-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: 7ab5faf0-1a7a-4e16-a366-6ca236f60a55, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: UK-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: f1ee4342-64a4-45af-86db-a7c6a666d953, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: UK-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: d2ecf457-092a-489f-bdc1-6eb293eea232, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: UK-2, server: uk2-full.privateip.net, port: 443, udp: true, type: trojan, password: d60f9beb-bbe4-4e11-9e5c-d372ecd396b6, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   # - {name: IT-1, server: it-full.privateip.net, port: 443, udp: true, type: trojan, password: ec66ab45-6423-47e6-b052-386b0cfecd07, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
@@ -59,14 +59,14 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      - SWEDEN
-      - GERMAN
-      - FRANCE
-      - Singapore-1
+      # - SWEDEN
+      # - GERMAN
+      # - FRANCE
+      # - Singapore-1
       - Singapore-2
       # - SPAIN
-      - AUSTRALIA
-      # - NETHERLANDS-1
+      # - AUSTRALIA
+      - NETHERLANDS-1
       # - NETHERLANDS-2
       - UK-1
       # - UK-2
