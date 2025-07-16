@@ -62,7 +62,7 @@ proxy-groups:
     proxies:
       # - SWEDEN
       # - GERMAN
-      - GERMAN-2
+      # - GERMAN-2
       # - FRANCE
       - Singapore-1
       - Singapore-2
