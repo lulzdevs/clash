@@ -39,8 +39,8 @@ experimental:
 
 proxies:
 
-  #  - {name: SWEDEN, server: se-full.privateip.net, port: 443, udp: true, type: trojan, password: 33a07a1a-3ab0-4750-8672-d51c9ac78339, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  #  - {name: GERMAN, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: d609dc66-3387-4df0-b1e0-a1075d0939bd, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: SWEDEN, server: se-full.privateip.net, port: 443, udp: true, type: trojan, password: d5e29a44-aef7-43d9-a61d-b9d69457766e, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: GERMAN, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: 3257c945-a971-4779-8793-23414997f796, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   #  - {name: GERMAN-2, server: de2-full.privateip.net, port: 443, udp: true, type: trojan, password: c6d2e20b-854f-4bab-b1d3-81fa1ae72f71, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   #  - {name: FRANCE, server: fr2-full.privateip.net, port: 443, udp: true, type: trojan, password: d569ffa0-0a8f-44f6-96c3-5fd844498e42, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 7653568e-d37d-40e6-a38f-00ce1d9fba5f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
@@ -51,7 +51,7 @@ proxies:
   - {name: NETHERLANDS-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: 9ee46579-2118-40af-8be5-d34433a2d1e6, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UK-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: a6c40610-887d-4dd5-a972-17e37dcb3557, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
   - {name: UK-2, server: uk2-full.privateip.net, port: 443, udp: true, type: trojan, password: 18609147-c13b-4004-be7f-3089de6e7400, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  # - {name: IT-1, server: it-full.privateip.net, port: 443, udp: true, type: trojan, password: ec66ab45-6423-47e6-b052-386b0cfecd07, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {name: IT-1, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: 76438091-a5b2-471b-9675-cf2724f8280f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
   - name: lulzDev-clash
@@ -60,8 +60,8 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      # - SWEDEN
-      # - GERMAN
+      - SWEDEN
+      - GERMAN
       # - GERMAN-2
       # - FRANCE
       - Singapore-1
@@ -72,7 +72,7 @@ proxy-groups:
       - NETHERLANDS-2
       - UK-1
       - UK-2
-      # - IT-1
+      - IT-1
       
 rules:
  - MATCH,lulzDev-clash
