@@ -5,54 +5,62 @@ mixed-port: 7893
 mode: global
 log-level: silent
 allow-lan: true
-external-controller: 0.0.0.0:9090
-bind-address: "*"
+external-controller: '0.0.0.0:9090'
+bind-address: '*'
 ipv6: false
 dns:
   enable: true
   ipv6: false
   enhanced-mode: redir-host
-  listen: 0.0.0.0:7894
+  listen: '0.0.0.0:7894'
   fallback-filter:
     geoip: false
     ipcidr:
-    - 240.0.0.0/4
+      - 240.0.0.0/4
   nameserver:
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.google/dns-query
-    - tls://1.1.1.1:853
-    - tls://8.8.8.8:853
+    - 'https://cloudflare-dns.com/dns-query'
+    - 'https://dns.google/dns-query'
+    - 'tls://1.1.1.1:853'
+    - 'tls://8.8.8.8:853'
   fallback:
-    - tcp://1.1.1.1
-    - tcp://8.8.8.8
+    - 'tcp://1.1.1.1'
+    - 'tcp://8.8.8.8'
     - 1.1.1.1
     - 8.8.8.8
 tun:
   enable: true
-  stack: system 
+  stack: system
   macOS-auto-route: true
   macOS-auto-detect-interface: true
   dns-hijack:
-    - tcp://8.8.8.8:53
+    - 'tcp://8.8.8.8:53'
 experimental:
   interface-name: en0
-
 proxies:
-
-  #- {name: SWEDEN, server: se-full.privateip.net, port: 443, udp: true, type: trojan, password: 0690cfdd-09ca-4cb4-bdfa-4071563d0708, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: GERMAN, server: de-full.privateip.net, port: 443, udp: true, type: trojan, password: 10e60bb4-9561-4159-b449-c49104ee1bfa, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  #  - {name: GERMAN-2, server: de2-full.privateip.net, port: 443, udp: true, type: trojan, password: c6d2e20b-854f-4bab-b1d3-81fa1ae72f71, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: FRANCE, server: fr2-full.privateip.net, port: 443, udp: true, type: trojan, password: 6d55448d-3c99-4eb3-bc5d-765d1c4e14c4, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Singapore-1, server: sg-full.privateip.net, port: 443, udp: true, type: trojan, password: 55dcd37d-3957-425b-8877-9bb5f0a71acc, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: Singapore-2, server: sg2-full.privateip.net, port: 443, udp: true, type: trojan, password: 67a22b2f-e60c-4df1-9746-45dc839cb6e5, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  #  - {name: SPAIN, server: au-full.privateip.net, port: 443, udp: true, type: trojan, password: d57abd5a-1e28-4057-ae60-acfced140f79, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  #  - {name: AUSTRALIA, server: au-full.privateip.net, port: 443, udp: true, type: trojan, password: 168ea4b4-17ba-49fc-bd7b-13fb729a8bc8, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: NETHERLANDS-1, server: nl-full.privateip.net, port: 443, udp: true, type: trojan, password: d0c6a4be-e754-4466-8700-a78dbd5cdad8, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  #  - {name: NETHERLANDS-2, server: nl2-full.privateip.net, port: 443, udp: true, type: trojan, password: 2edf1893-d646-4299-b408-f5f671bb978a, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  - {name: UK-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 7bd3481a-bb23-4bd6-b585-69f20d7a12c7, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  # - {name: UK-2, server: uk2-full.privateip.net, port: 443, udp: true, type: trojan, password: 8f9c0ec9-6bb8-40bf-a328-d09bdd5d6acc, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  # - {name: IT-1, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: 76438091-a5b2-471b-9675-cf2724f8280f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-
+  - name: GERMAN
+    server: de-full.privateip.net
+    port: 443
+    udp: true
+    type: trojan
+    password: 5ff6a702-41f9-4381-a16d-352205e420ad
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+  - name: Singapore-2
+    server: sg2-full.privateip.net
+    port: 443
+    udp: true
+    type: trojan
+    password: 3911f7d5-31e9-4b98-8391-8b08db26a44b
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+  - name: NETHERLANDS-2
+    server: nl2-full.privateip.net
+    port: 443
+    udp: true
+    type: trojan
+    password: 950bdd93-2097-4464-9468-1731a5b977a4
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
 proxy-groups:
   - name: lulzDev-clash
     type: load-balance
@@ -60,19 +68,8 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      # - SWEDEN
       - GERMAN
-      # - GERMAN-2
-      - FRANCE
-      - Singapore-1
       - Singapore-2
-      # - SPAIN
-      # - AUSTRALIA
-      - NETHERLANDS-1
-      # - NETHERLANDS-2
-      - UK-1
-      # - UK-2
-      # - IT-1
-      
+      - NETHERLANDS-2
 rules:
- - MATCH,lulzDev-clash
+  - 'MATCH,lulzDev-clash'
