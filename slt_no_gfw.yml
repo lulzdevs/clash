@@ -45,7 +45,7 @@ proxies:
       port: 443,
       udp: true,
       type: trojan,
-      password: 5ff6a702-41f9-4381-a16d-352205e420ad,
+      password: 6cbb94c8-a5d1-4a12-a6dc-5c2348c2a61f,
       sni: us04xmpp1.zoom.us,
       skip-cert-verify: true,
     }
@@ -71,12 +71,21 @@ proxies:
       port: 443,
       udp: true,
       type: trojan,
-      password: 950bdd93-2097-4464-9468-1731a5b977a4,
+      password: 8e79233b-0cb8-48d9-a2be-7d778ef2bdb6,
       sni: us04xmpp1.zoom.us,
       skip-cert-verify: true,
     }
   #- {name: UK-1, server: uk-full.privateip.net, port: 443, udp: true, type: trojan, password: 7bd3481a-bb23-4bd6-b585-69f20d7a12c7, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
-  # - {name: UK-2, server: uk2-full.privateip.net, port: 443, udp: true, type: trojan, password: 8f9c0ec9-6bb8-40bf-a328-d09bdd5d6acc, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
+  - {
+      name: UK-2, 
+      server: uk2-full.privateip.net, 
+      port: 443, 
+      udp: true, 
+      type: trojan, 
+      password: 533407fd-b3bc-4795-8557-15750e0e2dc4, 
+      sni: us04xmpp1.zoom.us, 
+      skip-cert-verify: true
+    }
   # - {name: IT-1, server: in-full.privateip.net, port: 443, udp: true, type: trojan, password: 76438091-a5b2-471b-9675-cf2724f8280f, sni: us04xmpp1.zoom.us, skip-cert-verify: true}
 
 proxy-groups:
