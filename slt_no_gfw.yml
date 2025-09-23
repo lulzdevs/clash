@@ -8,6 +8,7 @@ allow-lan: true
 external-controller: 0.0.0.0:9090
 bind-address: "*"
 ipv6: false
+
 dns:
   enable: true
   ipv6: false
@@ -27,77 +28,32 @@ dns:
     - tcp://8.8.8.8
     - 1.1.1.1
     - 8.8.8.8
+
 tun:
   enable: true
   stack: system
-  macOS-auto-route: true
-  macOS-auto-detect-interface: true
+  auto-route: true
+  auto-detect-interface: true
   dns-hijack:
     - tcp://8.8.8.8:53
-experimental:
-  interface-name: en0
-
+    
 proxies:
-  # - {
-  #     name: GERMAN,
-  #     server: de-full.privateip.net,
-  #     port: 443,
-  #     udp: true,
-  #     type: trojan,
-  #     password: 6cbb94c8-a5d1-4a12-a6dc-5c2348c2a61f,
-  #     sni: us04xmpp1.zoom.us,
-  #     skip-cert-verify: true,
-  #   }
-  # - {
-  #     name: Singapore-2,
-  #     server: sg2-full.privateip.net,
-  #     port: 443,
-  #     udp: true,
-  #     type: trojan,
-  #     password: 3911f7d5-31e9-4b98-8391-8b08db26a44b,
-  #     sni: us04xmpp1.zoom.us,
-  #     skip-cert-verify: true,
-  #   }
-  - {
-      name: NETHERLANDS-2,
-      server: nl2-full.privateip.net,
-      port: 443,
-      udp: true,
-      type: trojan,
-      password: 5c510c15-cfd7-4517-9c15-d2066c7c68d4,
-      sni: us04xmpp1.zoom.us,
-      skip-cert-verify: true,
-    }
-  # - {
-  #     name: UK-2, 
-  #     server: uk2-full.privateip.net, 
-  #     port: 443, 
-  #     udp: true, 
-  #     type: trojan, 
-  #     password: 533407fd-b3bc-4795-8557-15750e0e2dc4, 
-  #     sni: us04xmpp1.zoom.us, 
-  #     skip-cert-verify: true
-  #   }
-  # - {
-  #     name: UK-1, 
-  #     server: uk1-full.privateip.net, 
-  #     port: 443, 
-  #     udp: true, 
-  #     type: trojan, 
-  #     password: 533407fd-b3bc-4795-8557-15750e0e2dc4, 
-  #     sni: us04xmpp1.zoom.us, 
-  #     skip-cert-verify: true
-  #   }
-  - {
-      name: CUSTOM, 
-      server: 139.59.224.206:11588, 
-      port: 443, 
-      udp: true, 
-      type: trojan, 
-      password: 7700a1f2-7612-49cf-9736-f2f79189b624, 
-      sni: us04xmpp1.zoom.us, 
-      skip-cert-verify: true
-    }
+  - name: NETHERLANDS-2
+    type: trojan
+    server: nl2-full.privateip.net
+    port: 443
+    password: 5c510c15-cfd7-4517-9c15-d2066c7c68d4
+    udp: true
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+  - name: CUSTOM
+    type: trojan
+    server: 139.59.224.206
+    port: 11588
+    password: 7700a1f2-7612-49cf-9736-f2f79189b624
+    udp: true
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
 
 proxy-groups:
   - name: lulzDev-clash
