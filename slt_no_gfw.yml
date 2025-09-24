@@ -46,11 +46,19 @@ proxies:
     udp: true
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
-  - name: CUSTOM
+  - name: SINGAPORE-2
     type: trojan
-    server: 139.59.224.206
-    port: 11588
-    password: 7700a1f2-7612-49cf-9736-f2f79189b624
+    server: sg2-full.privateip.net
+    port: 443
+    password: 4e651aca-cb83-4dea-bfec-0bd578d20d72
+    udp: true
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
+  - name: GERMAN
+    type: trojan
+    server: de-full.privateip.net
+    port: 443
+    password: 3503bc15-019a-4112-901a-1f815ce7db3e
     udp: true
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -63,7 +71,8 @@ proxy-groups:
     interval: 300
     proxies:
       - NETHERLANDS-2
-      - CUSTOM
+      - SINGAPORE-2
+      - GERMAN
 
 rules:
   - MATCH,lulzDev-clash
