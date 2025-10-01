@@ -50,7 +50,7 @@ proxies:
     type: trojan
     server: sg2-full.privateip.net
     port: 443
-    password: 4e651aca-cb83-4dea-bfec-0bd578d20d72
+    password: 5beb988b-8774-4a5e-ab9e-9fd10b2eb72d
     udp: true
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
