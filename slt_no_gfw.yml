@@ -62,6 +62,14 @@ proxies:
     udp: true
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
+  - name: CUSTOM
+    type: trojan
+    server: www.bestprovider.site
+    port: 443
+    password: 18a58884-1279-4155-be96-9124497aae5d
+    udp: true
+    sni: us04xmpp1.zoom.us
+    skip-cert-verify: true
 
 proxy-groups:
   - name: lulzDev-clash
@@ -73,6 +81,7 @@ proxy-groups:
       - NETHERLANDS-2
       - SINGAPORE-2
       - GERMAN
+      - CUSTOM
 
 rules:
   - MATCH,lulzDev-clash
