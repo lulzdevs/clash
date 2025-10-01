@@ -64,9 +64,9 @@ proxies:
     skip-cert-verify: true
   - name: CUSTOM
     type: trojan
-    server: www.bestprovider.site
+    server: 41.sahanwickramasinghe.shop
     port: 443
-    password: 18a58884-1279-4155-be96-9124497aae5d
+    password: cc1cf382-0b0a-4ad7-8f46-4a708dd713ec
     udp: true
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
