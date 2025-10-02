@@ -62,11 +62,11 @@ proxies:
     udp: true
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
-  - name: CUSTOM
+  - name: AUSTRALIA
     type: trojan
-    server: 41.sahanwickramasinghe.shop
+    server: au-full.privateip.net
     port: 443
-    password: cc1cf382-0b0a-4ad7-8f46-4a708dd713ec
+    password: 56576779-a697-4d29-91d1-0116db08af92
     udp: true
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
@@ -81,7 +81,7 @@ proxy-groups:
       - NETHERLANDS-2
       - SINGAPORE-2
       - GERMAN
-      - CUSTOM
+      - AUSTRALIA
 
 rules:
   - MATCH,lulzDev-clash
