@@ -62,13 +62,14 @@ proxies:
     udp: true
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
-  - name: AUSTRALIA
+  - name: CUSTOM
     type: trojan
-    server: au-full.privateip.net
+    server: server1.mrlizard.my
     port: 443
-    password: 56576779-a697-4d29-91d1-0116db08af92
+    password: dcabb90e-df16-43f9-9a99-a4ca97a78c2e
     udp: true
-    sni: us04xmpp1.zoom.us
+    tls: true
+    sni: zoom.us
     skip-cert-verify: true
 
 proxy-groups:
@@ -81,7 +82,7 @@ proxy-groups:
       - NETHERLANDS-2
       - SINGAPORE-2
       - GERMAN
-      - AUSTRALIA
+      - CUSTOM
 
 rules:
   - MATCH,lulzDev-clash
