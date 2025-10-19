@@ -82,7 +82,7 @@ proxy-groups:
       - NETHERLANDS-2
       - SINGAPORE-2
       - GERMAN
-      - CUSTOM
+      - HK
 
 rules:
   - MATCH,lulzDev-clash
