@@ -62,14 +62,14 @@ proxies:
     udp: true
     sni: us04xmpp1.zoom.us
     skip-cert-verify: true
-  - name: CUSTOM
+  - name: HK
     type: trojan
-    server: server1.mrlizard.my
+    server: hk-full.privateip.net
     port: 443
-    password: dcabb90e-df16-43f9-9a99-a4ca97a78c2e
+    password: c520d26e-029e-4d90-a3a8-931f2537193d
     udp: true
     tls: true
-    sni: zoom.us
+    sni: web.facebook.com
     skip-cert-verify: true
 
 proxy-groups:
