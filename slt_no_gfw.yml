@@ -44,7 +44,7 @@ proxies:
     port: 443
     password: f6239d58-699b-4422-9bc8-bbb8bf63179b
     udp: true
-    sni: web.facebook.com
+    sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: SINGAPORE-2
     type: trojan
@@ -52,7 +52,7 @@ proxies:
     port: 443
     password: 4be06136-031b-4078-8490-bc60f1c19fed
     udp: true
-    sni: web.facebook.com
+    sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: GERMAN
     type: trojan
@@ -60,7 +60,7 @@ proxies:
     port: 443
     password: 37694526-3e2e-4b7a-8bee-44f07f47195b
     udp: true
-    sni: web.facebook.com
+    sni: us04xmpp1.zoom.us
     skip-cert-verify: true
   - name: HK
     type: trojan
@@ -69,7 +69,7 @@ proxies:
     password: c520d26e-029e-4d90-a3a8-931f2537193d
     udp: true
     tls: true
-    sni: web.facebook.com
+    sni: us04xmpp1.zoom.us
     skip-cert-verify: true
 
 proxy-groups:
