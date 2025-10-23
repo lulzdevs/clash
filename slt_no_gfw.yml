@@ -40,27 +40,27 @@ tun:
 proxies:
   - name: NETHERLANDS-2
     type: trojan
-    server: nl2-full.privateip.net
+    server: uk-full.privateip.net
     port: 443
-    password: 5c510c15-cfd7-4517-9c15-d2066c7c68d4
+    password: f6239d58-699b-4422-9bc8-bbb8bf63179b
     udp: true
-    sni: us04xmpp1.zoom.us
+    sni: web.facebook.com
     skip-cert-verify: true
   - name: SINGAPORE-2
     type: trojan
-    server: sg2-full.privateip.net
+    server: fr2-full.privateip.net
     port: 443
-    password: 5beb988b-8774-4a5e-ab9e-9fd10b2eb72d
+    password: 4be06136-031b-4078-8490-bc60f1c19fed
     udp: true
-    sni: us04xmpp1.zoom.us
+    sni: web.facebook.com
     skip-cert-verify: true
   - name: GERMAN
     type: trojan
     server: de-full.privateip.net
     port: 443
-    password: 3503bc15-019a-4112-901a-1f815ce7db3e
+    password: 37694526-3e2e-4b7a-8bee-44f07f47195b
     udp: true
-    sni: us04xmpp1.zoom.us
+    sni: web.facebook.com
     skip-cert-verify: true
   - name: HK
     type: trojan
